@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Main Specialty and Treatment Function Codes Table",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/supporting_information/main_specialty_and_treatment_function_codes_table.html",
+  "name": "Main-Specialty-and-Treatment-Function-Codes-Table",
+  "description": "Main Specialty and Treatment Function Codes Table.",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/supporting_information/main_specialty_and_treatment_function_codes_table.html",
+    "display": "Main Specialty and Treatment Function Codes Table"
+  },
+  "_bindingStrength": "example",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "main-specialty-and-treatment-function-codes-table",
+    "collection": "WRIST-PRSB-building-block-dataset",
+    "updatedAt": "2026-05-08T16:05:33.413396+00:00",
+    "createdBy": "zchahl3",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Creation of existing value set in new format.",
+        "date": "2026-05-08T16:05:33.413396+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
