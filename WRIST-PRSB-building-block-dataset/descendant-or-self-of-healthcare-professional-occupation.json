@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Descendant or self of Healthcare professional occupation",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "<< 223366009 |Healthcare professional|"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "DescendantOrSelfOfHealthcareProfessionalOccupation",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Descendant or self of Healthcare professional occupation</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/descendantorselfofhealthcareprofessionaloccupation-ccdba410001a",
+  "description": "Descendant or self of Healthcare professional occupation.",
+  "_bindingStrength": "example",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "descendant-or-self-of-healthcare-professional-occupation",
+    "collection": "WRIST-PRSB-building-block-dataset",
+    "updatedAt": "2026-05-08T15:54:17.807434+00:00",
+    "createdBy": "zchahl3",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Creation of existing value set in new format.",
+        "date": "2026-05-08T15:54:17.807434+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
