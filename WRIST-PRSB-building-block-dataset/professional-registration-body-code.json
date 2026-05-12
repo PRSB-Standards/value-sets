@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "title": "PROFESSIONAL REGISTRATION BODY CODE",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/attributes/professional_registration_body_code.html",
+  "name": "PROFESSIONAL-REGISTRATION-BODY-CODE",
+  "description": "PROFESSIONAL REGISTRATION BODY CODE.",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/attributes/professional_registration_body_code.html",
+    "display": "PROFESSIONAL REGISTRATION BODY CODE"
+  },
+  "_bindingStrength": "example",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "professional-registration-body-code",
+    "collection": "WRIST-PRSB-building-block-dataset",
+    "updatedAt": "2026-05-12T08:55:41.182277+00:00",
+    "createdBy": "zchahl3",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Creation of existing value set in new format.",
+        "date": "2026-05-12T08:55:41.182277+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
