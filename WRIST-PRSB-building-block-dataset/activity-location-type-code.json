@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "title": "ACTIVITY LOCATION TYPE CODE",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/attributes/activity_location_type_code.html",
+  "name": "ACTIVITY-LOCATION-TYPE-CODE",
+  "description": "ACTIVITY LOCATION TYPE CODE.",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/attributes/activity_location_type_code.html",
+    "display": "ACTIVITY LOCATION TYPE CODE"
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "activity-location-type-code",
+    "collection": "WRIST-PRSB-building-block-dataset",
+    "updatedAt": "2026-05-12T15:59:39.872513+00:00",
+    "createdBy": "zchahl3",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Existing value set updated to new format.",
+        "date": "2026-05-12T15:59:39.872513+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
