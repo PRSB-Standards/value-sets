@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Organisation Data Service",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/supporting_information/organisation_data_service.html",
+  "name": "Organisation-Data-Service",
+  "description": "Organisation Data Service.",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/supporting_information/organisation_data_service.html",
+    "display": "Organisation Data Service"
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "organisation-data-service",
+    "collection": "WRIST-PRSB-building-block-dataset",
+    "updatedAt": "2026-05-12T09:10:26.676017+00:00",
+    "createdBy": "zchahl3",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Creation of existing value set in new format.",
+        "date": "2026-05-12T09:10:26.676017+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
