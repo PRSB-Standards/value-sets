@@ -1,0 +1,79 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Body Mass Index",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "60621009 |Body mass index|"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "Body-Mass-Index",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Body Mass Index</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/body-mass-index-0d7a9cc9db44",
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "body-mass-index",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-05-21T09:44:55.150139+00:00",
+    "createdBy": "zchahl3",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New value set.",
+        "date": "2026-05-21T09:44:55.150139+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
