@@ -1,0 +1,815 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/pcdrefsetsndaweightcod-3226b6c85b70",
+  "name": "pcdrefsetsndaweightcod",
+  "title": "PCD_refsets_NDAWEIGHT_COD",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>PCD_refsets_NDAWEIGHT_COD</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "102492002",
+            "display": "Failure to maintain weight (finding)"
+          },
+          {
+            "code": "104301000000104",
+            "display": "[D]Underweight"
+          },
+          {
+            "code": "1153592008",
+            "display": "Weight for age percentile (observable entity)"
+          },
+          {
+            "code": "1153593003",
+            "display": "Weight for age z-score (observable entity)"
+          },
+          {
+            "code": "1153599004",
+            "display": "Weight for length percentile (observable entity)"
+          },
+          {
+            "code": "1153600001",
+            "display": "Weight for height z-score (observable entity)"
+          },
+          {
+            "code": "1153601002",
+            "display": "Weight for height percentile (observable entity)"
+          },
+          {
+            "code": "1162388008",
+            "display": "Dosing body weight (observable entity)"
+          },
+          {
+            "code": "1162416001",
+            "display": "Pre-amputation measured body weight (observable entity)"
+          },
+          {
+            "code": "139087009",
+            "display": "Weight steady (finding)"
+          },
+          {
+            "code": "139088004",
+            "display": "Weight increasing (finding)"
+          },
+          {
+            "code": "139089007",
+            "display": "Weight decreasing (finding)"
+          },
+          {
+            "code": "139090003",
+            "display": "Abnormal weight gain (finding)"
+          },
+          {
+            "code": "139917004",
+            "display": "O/E - obese (finding)"
+          },
+          {
+            "code": "139987007",
+            "display": "O/E - weight greater than 20% below ideal (finding)"
+          },
+          {
+            "code": "139988002",
+            "display": "O/E -weight 10-20% below ideal (finding)"
+          },
+          {
+            "code": "139990001",
+            "display": "O/E - overweight (& [weight 10-20% over ideal]) (finding)"
+          },
+          {
+            "code": "139991002",
+            "display": "O/E weight: [>20% over ideal] or [obese] (finding)"
+          },
+          {
+            "code": "140096001",
+            "display": "Height and Weight (observable entity)"
+          },
+          {
+            "code": "147237000",
+            "display": "Child weight less than third centile (finding)"
+          },
+          {
+            "code": "147238005",
+            "display": "Child weight=3rd-9th centile (finding)"
+          },
+          {
+            "code": "147239002",
+            "display": "Child weight=10th-24th centile (finding)"
+          },
+          {
+            "code": "147240000",
+            "display": "Child weight=25th-49th centile (finding)"
+          },
+          {
+            "code": "147241001",
+            "display": "Child weight=50th-74th centile (finding)"
+          },
+          {
+            "code": "147242008",
+            "display": "Child weight=75th-89th centile (finding)"
+          },
+          {
+            "code": "147243003",
+            "display": "Child weight=90th-96th centile (finding)"
+          },
+          {
+            "code": "147244009",
+            "display": "Child weight greater than 97th centile (finding)"
+          },
+          {
+            "code": "147245005",
+            "display": "Child weight < 0.4th centile (finding)"
+          },
+          {
+            "code": "147246006",
+            "display": "Child weight = 0.4th centile (finding)"
+          },
+          {
+            "code": "147247002",
+            "display": "Child weight 0.5th - 1.9th centile (finding)"
+          },
+          {
+            "code": "147248007",
+            "display": "Child weight = 2nd centile (finding)"
+          },
+          {
+            "code": "147249004",
+            "display": "Child weight 3rd - 8th centile (finding)"
+          },
+          {
+            "code": "147250004",
+            "display": "Child weight 9th centile (finding)"
+          },
+          {
+            "code": "147251000",
+            "display": "Child weight 10th - 24th centile (finding)"
+          },
+          {
+            "code": "147252007",
+            "display": "Child weight = 25th centile (finding)"
+          },
+          {
+            "code": "147253002",
+            "display": "Child weight 26th - 49th centile (finding)"
+          },
+          {
+            "code": "147254008",
+            "display": "Child weight = 50th centile (finding)"
+          },
+          {
+            "code": "147255009",
+            "display": "Child weight 51st - 74th centile (finding)"
+          },
+          {
+            "code": "147256005",
+            "display": "Child weight = 75th centile (finding)"
+          },
+          {
+            "code": "147257001",
+            "display": "Child weight 76th - 90th centile (finding)"
+          },
+          {
+            "code": "147259003",
+            "display": "Child weight = 91st centile (finding)"
+          },
+          {
+            "code": "147260008",
+            "display": "Child weight 92nd - 97th centile (finding)"
+          },
+          {
+            "code": "147261007",
+            "display": "Child weight = 98th centile (finding)"
+          },
+          {
+            "code": "147262000",
+            "display": "Child weight 98.1st - 99.6th centile (finding)"
+          },
+          {
+            "code": "147263005",
+            "display": "Child weight > 99.6th centile (finding)"
+          },
+          {
+            "code": "1556521000000109",
+            "display": "Estimated creatinine clearance calculated using adjusted body weight Cockcroft-Gault formula (observable entity)"
+          },
+          {
+            "code": "158270004",
+            "display": "[D]Abnormal weight gain (situation)"
+          },
+          {
+            "code": "158271000",
+            "display": "[D]Abnormal loss of weight (situation)"
+          },
+          {
+            "code": "161831008",
+            "display": "Weight increasing (finding)"
+          },
+          {
+            "code": "161832001",
+            "display": "Weight decreasing (finding)"
+          },
+          {
+            "code": "161833006",
+            "display": "Abnormal weight gain (finding)"
+          },
+          {
+            "code": "162690006",
+            "display": "On examination - obese (finding)"
+          },
+          {
+            "code": "162763007",
+            "display": "On examination - weight (finding)"
+          },
+          {
+            "code": "162764001",
+            "display": "On examination - weight greater than 20% below ideal (finding)"
+          },
+          {
+            "code": "162765000",
+            "display": "On examination - weight 10-20% below ideal (finding)"
+          },
+          {
+            "code": "162766004",
+            "display": "On examination - weight within 10% ideal (finding)"
+          },
+          {
+            "code": "162767008",
+            "display": "O/E - overweight (& [weight 10-20% over ideal]) (finding)"
+          },
+          {
+            "code": "162768003",
+            "display": "O/E weight: [>20% over ideal] or [obese] (finding)"
+          },
+          {
+            "code": "162769006",
+            "display": "On examination - Underweight (finding)"
+          },
+          {
+            "code": "162879003",
+            "display": "Height and Weight (observable entity)"
+          },
+          {
+            "code": "170006002",
+            "display": "Child weight less than third centile (finding)"
+          },
+          {
+            "code": "170007006",
+            "display": "Child weight equal to third-ninth centile (finding)"
+          },
+          {
+            "code": "170008001",
+            "display": "Child weight=10th-24th centile (finding)"
+          },
+          {
+            "code": "170009009",
+            "display": "Child weight=25th-49th centile (finding)"
+          },
+          {
+            "code": "170010004",
+            "display": "Child weight=50th-74th centile (finding)"
+          },
+          {
+            "code": "170011000",
+            "display": "Child weight=75th-89th centile (finding)"
+          },
+          {
+            "code": "170012007",
+            "display": "Child weight=90th-96th centile (finding)"
+          },
+          {
+            "code": "170013002",
+            "display": "Child weight greater than 97th centile (finding)"
+          },
+          {
+            "code": "170014008",
+            "display": "Child weight < 0.4th centile (finding)"
+          },
+          {
+            "code": "170015009",
+            "display": "Child weight = 0.4th centile (finding)"
+          },
+          {
+            "code": "170016005",
+            "display": "Child weight 0.5th - 1.9th centile (finding)"
+          },
+          {
+            "code": "170017001",
+            "display": "Child weight = 2nd centile (finding)"
+          },
+          {
+            "code": "170018006",
+            "display": "Child weight 3rd - 8th centile (finding)"
+          },
+          {
+            "code": "170019003",
+            "display": "Child weight 9th centile (finding)"
+          },
+          {
+            "code": "170020009",
+            "display": "Child weight 10th - 24th centile (finding)"
+          },
+          {
+            "code": "170021008",
+            "display": "Child weight = 25th centile (finding)"
+          },
+          {
+            "code": "170022001",
+            "display": "Child weight 26th - 49th centile (finding)"
+          },
+          {
+            "code": "170023006",
+            "display": "Child weight = 50th centile (finding)"
+          },
+          {
+            "code": "170024000",
+            "display": "Child weight 51st - 74th centile (finding)"
+          },
+          {
+            "code": "170025004",
+            "display": "Child weight = 75th centile (finding)"
+          },
+          {
+            "code": "170026003",
+            "display": "Child weight 76th - 90th centile (finding)"
+          },
+          {
+            "code": "170027007",
+            "display": "Child weight = 91st centile (finding)"
+          },
+          {
+            "code": "170028002",
+            "display": "Child weight 92nd - 97th centile (finding)"
+          },
+          {
+            "code": "170029005",
+            "display": "Child weight = 98th centile (finding)"
+          },
+          {
+            "code": "170030000",
+            "display": "Child weight 98.1st - 99.6th centile (finding)"
+          },
+          {
+            "code": "170031001",
+            "display": "Child weight > 99.6th centile (finding)"
+          },
+          {
+            "code": "197941000000107",
+            "display": "Target weight reached (finding)"
+          },
+          {
+            "code": "206918008",
+            "display": "[D]Abnormal weight gain (situation)"
+          },
+          {
+            "code": "206919000",
+            "display": "[D]Abnormal loss of weight (situation)"
+          },
+          {
+            "code": "206926000",
+            "display": "[D]Failure to gain weight (situation)"
+          },
+          {
+            "code": "212681000000106",
+            "display": "Target weight reached"
+          },
+          {
+            "code": "212691000000108",
+            "display": "Target weight reached"
+          },
+          {
+            "code": "22495007",
+            "display": "Abnormal weight (finding)"
+          },
+          {
+            "code": "224994002",
+            "display": "Excessive weight gain (finding)"
+          },
+          {
+            "code": "225171007",
+            "display": "Weight and body mass assessment procedure (procedure)"
+          },
+          {
+            "code": "23712001",
+            "display": "Abnormal decrease in weight (finding)"
+          },
+          {
+            "code": "238131007",
+            "display": "Overweight (finding)"
+          },
+          {
+            "code": "248332009",
+            "display": "Weight fluctuates (finding)"
+          },
+          {
+            "code": "248342006",
+            "display": "Underweight (finding)"
+          },
+          {
+            "code": "248344007",
+            "display": "Weight static (finding)"
+          },
+          {
+            "code": "248345008",
+            "display": "Body weight (observable entity)"
+          },
+          {
+            "code": "248347000",
+            "display": "Percentage change in weight (observable entity)"
+          },
+          {
+            "code": "248348005",
+            "display": "Percentage weight gain (observable entity)"
+          },
+          {
+            "code": "248349002",
+            "display": "Percentage weight loss (observable entity)"
+          },
+          {
+            "code": "248350002",
+            "display": "Reference weight (observable entity)"
+          },
+          {
+            "code": "248353000",
+            "display": "Percentage of reference weight (observable entity)"
+          },
+          {
+            "code": "248354006",
+            "display": "Percentage overweight (observable entity)"
+          },
+          {
+            "code": "248355007",
+            "display": "Percentage underweight (observable entity)"
+          },
+          {
+            "code": "248357004",
+            "display": "Trend in weight centile (observable entity)"
+          },
+          {
+            "code": "248358009",
+            "display": "Weight for height (observable entity)"
+          },
+          {
+            "code": "248360006",
+            "display": "Weight for height (observable entity)"
+          },
+          {
+            "code": "262285001",
+            "display": "Weight decreased (finding)"
+          },
+          {
+            "code": "262286000",
+            "display": "Weight increased (finding)"
+          },
+          {
+            "code": "267024001",
+            "display": "Abnormal weight loss (finding)"
+          },
+          {
+            "code": "267158006",
+            "display": "Weight loss (& abnormal) (finding)"
+          },
+          {
+            "code": "268915006",
+            "display": "On examination - weight 10-20% over ideal (finding)"
+          },
+          {
+            "code": "268916007",
+            "display": "On examination - weight greater than 20% over ideal (finding)"
+          },
+          {
+            "code": "27113001",
+            "display": "Body weight (observable entity)"
+          },
+          {
+            "code": "271398006",
+            "display": "Weight steady (finding)"
+          },
+          {
+            "code": "275947003",
+            "display": "On examination - overweight (finding)"
+          },
+          {
+            "code": "276355006",
+            "display": "Weight centile velocity (observable entity)"
+          },
+          {
+            "code": "309257005",
+            "display": "Excessive weight loss (finding)"
+          },
+          {
+            "code": "314669003",
+            "display": "Child weight < 0.4th centile (finding)"
+          },
+          {
+            "code": "314670002",
+            "display": "Child weight = 0.4th centile (finding)"
+          },
+          {
+            "code": "314671003",
+            "display": "Child weight 0.5th - 1.9th centile (finding)"
+          },
+          {
+            "code": "314672005",
+            "display": "Child weight = 2nd centile (finding)"
+          },
+          {
+            "code": "314673000",
+            "display": "Child weight third - eighth centile (finding)"
+          },
+          {
+            "code": "314674006",
+            "display": "Child weight 9th centile (finding)"
+          },
+          {
+            "code": "314675007",
+            "display": "Child weight 10th - 24th centile (finding)"
+          },
+          {
+            "code": "314676008",
+            "display": "Child weight = 25th centile (finding)"
+          },
+          {
+            "code": "314677004",
+            "display": "Child weight 26th - 49th centile (finding)"
+          },
+          {
+            "code": "314678009",
+            "display": "Child weight = 50th centile (finding)"
+          },
+          {
+            "code": "314679001",
+            "display": "Child weight 51st - 74th centile (finding)"
+          },
+          {
+            "code": "314680003",
+            "display": "Child weight = 75th centile (finding)"
+          },
+          {
+            "code": "314681004",
+            "display": "Child weight 76th - 90th centile (finding)"
+          },
+          {
+            "code": "314682006",
+            "display": "Child weight = 91st centile (finding)"
+          },
+          {
+            "code": "314683001",
+            "display": "Child weight 92nd - 97th centile (finding)"
+          },
+          {
+            "code": "314684007",
+            "display": "Child weight = 98th centile (finding)"
+          },
+          {
+            "code": "314685008",
+            "display": "Child weight 98.1st - 99.6th centile (finding)"
+          },
+          {
+            "code": "314686009",
+            "display": "Child weight > 99.6th centile (finding)"
+          },
+          {
+            "code": "351000119100",
+            "display": "Childhood failure to gain weight (finding)"
+          },
+          {
+            "code": "363805003",
+            "display": "Weight gain (amount) (observable entity)"
+          },
+          {
+            "code": "363806002",
+            "display": "Weight loss (amount) (observable entity)"
+          },
+          {
+            "code": "363808001",
+            "display": "Measured body weight (observable entity)"
+          },
+          {
+            "code": "36440009",
+            "display": "Failure to gain weight (finding)"
+          },
+          {
+            "code": "392758003",
+            "display": "O/E - Underweight (context-dependent category)"
+          },
+          {
+            "code": "39857003",
+            "display": "Weighing patient (procedure)"
+          },
+          {
+            "code": "400967004",
+            "display": "Baseline weight (observable entity)"
+          },
+          {
+            "code": "401003006",
+            "display": "Weight loss from baseline weight (observable entity)"
+          },
+          {
+            "code": "408388001",
+            "display": "[D]Underweight (situation)"
+          },
+          {
+            "code": "414915002",
+            "display": "Obese (finding)"
+          },
+          {
+            "code": "422503008",
+            "display": "Abnormal weight in relation to growth / age standard (finding)"
+          },
+          {
+            "code": "42287000",
+            "display": "Abnormal increase in weight (finding)"
+          },
+          {
+            "code": "424927000",
+            "display": "Body weight with shoes (observable entity)"
+          },
+          {
+            "code": "425024002",
+            "display": "Body weight without shoes (observable entity)"
+          },
+          {
+            "code": "430237002",
+            "display": "Abnormal intentional weight loss (finding)"
+          },
+          {
+            "code": "43664005",
+            "display": "Normal weight (finding)"
+          },
+          {
+            "code": "443371000124107",
+            "display": "Obese class I (finding)"
+          },
+          {
+            "code": "443381000124105",
+            "display": "Obese class II (finding)"
+          },
+          {
+            "code": "445541000",
+            "display": "Dry body weight (observable entity)"
+          },
+          {
+            "code": "450451007",
+            "display": "Overweight in childhood (finding)"
+          },
+          {
+            "code": "47961000000105",
+            "display": "Baseline weight"
+          },
+          {
+            "code": "496891000000106",
+            "display": "[D]Abnormal weight gain (situation)"
+          },
+          {
+            "code": "496901000000107",
+            "display": "[D]Abnormal loss of weight (situation)"
+          },
+          {
+            "code": "496961000000106",
+            "display": "[D]Failure to gain weight (situation)"
+          },
+          {
+            "code": "503001000000108",
+            "display": "[D]Underweight (situation)"
+          },
+          {
+            "code": "516391000000108",
+            "display": "Dry weight (observable entity)"
+          },
+          {
+            "code": "55491000237100",
+            "display": "Patient weight (observable entity)"
+          },
+          {
+            "code": "698094009",
+            "display": "Measurement of body mass index (procedure)"
+          },
+          {
+            "code": "707471000000104",
+            "display": "Percentage weight loss"
+          },
+          {
+            "code": "717923002",
+            "display": "Moderate underweight in infancy childhood and adolescence (finding)"
+          },
+          {
+            "code": "734435008",
+            "display": "Body weight abnormal for age (finding)"
+          },
+          {
+            "code": "735395000",
+            "display": "Current body weight (observable entity)"
+          },
+          {
+            "code": "75061000000102",
+            "display": "Baseline weight"
+          },
+          {
+            "code": "75071000000109",
+            "display": "Weight loss from baseline weight"
+          },
+          {
+            "code": "758931000000104",
+            "display": "Height and weight measurement for National Child Measurement Programme (finding)"
+          },
+          {
+            "code": "783549006",
+            "display": "Obesity due to centrosomal protein 19 deficiency (disorder)"
+          },
+          {
+            "code": "783719006",
+            "display": "Obesity due to SIM bHLH transcription factor 1 deficiency (disorder)"
+          },
+          {
+            "code": "784399000",
+            "display": "Self reported body weight (observable entity)"
+          },
+          {
+            "code": "785722006",
+            "display": "Obesity due to leptin receptor gene deficiency (disorder)"
+          },
+          {
+            "code": "79311000000104",
+            "display": "Weight loss from baseline weight"
+          },
+          {
+            "code": "808051000000101",
+            "display": "Overweight"
+          },
+          {
+            "code": "816159004",
+            "display": "Measured weight gain (observable entity)"
+          },
+          {
+            "code": "816160009",
+            "display": "Measured weight loss (observable entity)"
+          },
+          {
+            "code": "819948005",
+            "display": "Obese class III (finding)"
+          },
+          {
+            "code": "83421005",
+            "display": "Failure to lose weight (finding)"
+          },
+          {
+            "code": "840358001",
+            "display": "High body weight (finding)"
+          },
+          {
+            "code": "89362005",
+            "display": "Weight loss (finding)"
+          },
+          {
+            "code": "8943002",
+            "display": "Weight gain (finding)"
+          },
+          {
+            "code": "914721000000105",
+            "display": "Obese class I (body mass index 30.0 - 34.9) (finding)"
+          },
+          {
+            "code": "914731000000107",
+            "display": "Obese class II (body mass index 35.0 - 39.9) (finding)"
+          },
+          {
+            "code": "914741000000103",
+            "display": "Obese class III (body mass index equal to or greater than 40.0) (finding)"
+          },
+          {
+            "code": "917151000000106",
+            "display": "Obese class I (body mass index 30.0 - 34.9)"
+          },
+          {
+            "code": "917161000000109",
+            "display": "Obese class II (body mass index 35.0 - 39.9)"
+          },
+          {
+            "code": "917171000000102",
+            "display": "Obese class III (body mass index equal to or greater than 40.0)"
+          }
+        ]
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "pcdrefsetsndaweightcod",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-05-22T15:26:09.058925+00:00",
+    "createdBy": "zchahl3",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Weight interpretation codes.xlsx",
+        "date": "2026-05-22T15:26:09.058925+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
