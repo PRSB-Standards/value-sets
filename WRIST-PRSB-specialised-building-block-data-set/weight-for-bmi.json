@@ -1,0 +1,231 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Weight for BMI",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "27113001",
+            "display": "Body weight"
+          },
+          {
+            "code": "424927000",
+            "display": "Body weight with shoes"
+          },
+          {
+            "code": "425024002",
+            "display": "Body weight without shoes"
+          },
+          {
+            "code": "735395000",
+            "display": "Current body weight"
+          },
+          {
+            "code": "445541000",
+            "display": "Dry body weight"
+          },
+          {
+            "code": "1162420002",
+            "display": "Post-dialysis body weight"
+          },
+          {
+            "code": "1162414003",
+            "display": "Pre-amputation estimated body weight"
+          },
+          {
+            "code": "1162416001",
+            "display": "Pre-amputation measured body weight"
+          },
+          {
+            "code": "1162421003",
+            "display": "Pre-dialysis body weight"
+          },
+          {
+            "code": "784399000",
+            "display": "Self reported body weight"
+          },
+          {
+            "code": "1162389000",
+            "display": "Self reported pre-pregnancy body weight"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "Weight-for-BMI",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Weight for BMI</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/weight-for-bmi-a52960be3ff9",
+  "description": "Subset of weight concepts for estimating or calculating BMI.",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "27113001",
+        "display": "Body weight"
+      },
+      {
+        "code": "424927000",
+        "display": "Body weight with shoes"
+      },
+      {
+        "code": "425024002",
+        "display": "Body weight without shoes"
+      },
+      {
+        "code": "735395000",
+        "display": "Current body weight"
+      },
+      {
+        "code": "445541000",
+        "display": "Dry body weight"
+      },
+      {
+        "code": "1162420002",
+        "display": "Post-dialysis body weight"
+      },
+      {
+        "code": "1162414003",
+        "display": "Pre-amputation estimated body weight"
+      },
+      {
+        "code": "1162416001",
+        "display": "Pre-amputation measured body weight"
+      },
+      {
+        "code": "1162421003",
+        "display": "Pre-dialysis body weight"
+      },
+      {
+        "code": "784399000",
+        "display": "Self reported body weight"
+      },
+      {
+        "code": "1162389000",
+        "display": "Self reported pre-pregnancy body weight"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "27113001",
+        "display": "Body weight",
+        "action": "include-only"
+      },
+      {
+        "code": "424927000",
+        "display": "Body weight with shoes",
+        "action": "include-only"
+      },
+      {
+        "code": "425024002",
+        "display": "Body weight without shoes",
+        "action": "include-only"
+      },
+      {
+        "code": "735395000",
+        "display": "Current body weight",
+        "action": "include-only"
+      },
+      {
+        "code": "445541000",
+        "display": "Dry body weight",
+        "action": "include-only"
+      },
+      {
+        "code": "1162420002",
+        "display": "Post-dialysis body weight",
+        "action": "include-only"
+      },
+      {
+        "code": "1162414003",
+        "display": "Pre-amputation estimated body weight",
+        "action": "include-only"
+      },
+      {
+        "code": "1162416001",
+        "display": "Pre-amputation measured body weight",
+        "action": "include-only"
+      },
+      {
+        "code": "1162421003",
+        "display": "Pre-dialysis body weight",
+        "action": "include-only"
+      },
+      {
+        "code": "784399000",
+        "display": "Self reported body weight",
+        "action": "include-only"
+      },
+      {
+        "code": "1162389000",
+        "display": "Self reported pre-pregnancy body weight",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "1162389000",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1162389000"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "weight-for-bmi",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-05-22T11:23:05.273138+00:00",
+    "createdBy": "zchahl3",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New value set.",
+        "date": "2026-05-22T11:23:05.273138+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
