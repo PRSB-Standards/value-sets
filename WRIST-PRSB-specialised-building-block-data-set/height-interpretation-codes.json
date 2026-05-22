@@ -1,0 +1,355 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/height-interpretation-codes-f86801dfdabd",
+  "name": "height-interpretation-codes",
+  "title": "Height interpretation codes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Height interpretation codes</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1153600001",
+            "display": "Weight for height z-score (observable entity)"
+          },
+          {
+            "code": "1153601002",
+            "display": "Weight for height percentile (observable entity)"
+          },
+          {
+            "code": "1153604005",
+            "display": "Body height for age z-score (observable entity)"
+          },
+          {
+            "code": "1153605006",
+            "display": "Body height for age percentile (observable entity)"
+          },
+          {
+            "code": "1153637007",
+            "display": "Body height (observable entity)"
+          },
+          {
+            "code": "1162392001",
+            "display": "Pre-amputation measured body height (observable entity)"
+          },
+          {
+            "code": "1162419008",
+            "display": "Self reported body height (observable entity)"
+          },
+          {
+            "code": "1230278008",
+            "display": "Self reported peak adult body height (observable entity)"
+          },
+          {
+            "code": "1251557006",
+            "display": "Waist circumference to body height ratio (observable entity)"
+          },
+          {
+            "code": "129814003",
+            "display": "Body height abnormal for age (finding)"
+          },
+          {
+            "code": "139977008",
+            "display": "O/E - height (finding)"
+          },
+          {
+            "code": "139978003",
+            "display": "O/E - height greater than 20% below average (finding)"
+          },
+          {
+            "code": "139979006",
+            "display": "O/E - height 10-20% below average (finding)"
+          },
+          {
+            "code": "139980009",
+            "display": "O/E -height within 10% average (finding)"
+          },
+          {
+            "code": "139981008",
+            "display": "O/E-height 10-20% over average (finding)"
+          },
+          {
+            "code": "139982001",
+            "display": "O/E - height greater than 20% over average (finding)"
+          },
+          {
+            "code": "139983006",
+            "display": "O/E - loss of height (finding)"
+          },
+          {
+            "code": "139984000",
+            "display": "O/E - height NOS (finding)"
+          },
+          {
+            "code": "140096001",
+            "display": "Height and Weight (observable entity)"
+          },
+          {
+            "code": "14456009",
+            "display": "Measuring height of patient (procedure)"
+          },
+          {
+            "code": "14811000119105",
+            "display": "Abnormal increase in body height (finding)"
+          },
+          {
+            "code": "162755006",
+            "display": "On examination - height (finding)"
+          },
+          {
+            "code": "162756007",
+            "display": "On examination - height greater than 20% below average (finding)"
+          },
+          {
+            "code": "162757003",
+            "display": "On examination - height 10-20% below average (finding)"
+          },
+          {
+            "code": "162758008",
+            "display": "On examination - height within 10% average (finding)"
+          },
+          {
+            "code": "162759000",
+            "display": "On examination - height 10-20% over average (finding)"
+          },
+          {
+            "code": "162760005",
+            "display": "On examination - height greater than 20% over average (finding)"
+          },
+          {
+            "code": "162761009",
+            "display": "On examination - loss of height (finding)"
+          },
+          {
+            "code": "162762002",
+            "display": "On examination - height NOS (finding)"
+          },
+          {
+            "code": "162879003",
+            "display": "Height and Weight (observable entity)"
+          },
+          {
+            "code": "170034009",
+            "display": "Child height less than third centile (finding)"
+          },
+          {
+            "code": "170035005",
+            "display": "Child height equal to third-ninth centile (finding)"
+          },
+          {
+            "code": "170037002",
+            "display": "Child height=25th-49th centile (finding)"
+          },
+          {
+            "code": "170038007",
+            "display": "Child height=50th-74th centile (finding)"
+          },
+          {
+            "code": "170039004",
+            "display": "Child height=75th-89th centile (finding)"
+          },
+          {
+            "code": "170040002",
+            "display": "Child height=90th-96th centile (finding)"
+          },
+          {
+            "code": "170041003",
+            "display": "Child height greater than 97th centile (finding)"
+          },
+          {
+            "code": "17489000",
+            "display": "Body height normal for age (finding)"
+          },
+          {
+            "code": "224997009",
+            "display": "Height increased (finding)"
+          },
+          {
+            "code": "248329006",
+            "display": "Has grown shorter (finding)"
+          },
+          {
+            "code": "248331002",
+            "display": "Has grown in height (finding)"
+          },
+          {
+            "code": "248333004",
+            "display": "Standing height (observable entity)"
+          },
+          {
+            "code": "248338008",
+            "display": "Height centile (observable entity)"
+          },
+          {
+            "code": "248340003",
+            "display": "Growth velocity centile (observable entity)"
+          },
+          {
+            "code": "248358009",
+            "display": "Weight for height (observable entity)"
+          },
+          {
+            "code": "248360006",
+            "display": "Weight for height (observable entity)"
+          },
+          {
+            "code": "268482007",
+            "display": "Child height centile (observable entity)"
+          },
+          {
+            "code": "271603002",
+            "display": "Height / growth measure (observable entity)"
+          },
+          {
+            "code": "271817008",
+            "display": "Has not grown in height (finding)"
+          },
+          {
+            "code": "302033003",
+            "display": "Bone age corrected height centile (observable entity)"
+          },
+          {
+            "code": "309534003",
+            "display": "Normal height (finding)"
+          },
+          {
+            "code": "314687000",
+            "display": "Child height < 0.4th centile (finding)"
+          },
+          {
+            "code": "314688005",
+            "display": "Child height 0.5th - 1.9th centile (finding)"
+          },
+          {
+            "code": "314689002",
+            "display": "Child height = 2nd centile (finding)"
+          },
+          {
+            "code": "314690006",
+            "display": "Child height third - eighth centile (finding)"
+          },
+          {
+            "code": "314691005",
+            "display": "Child height = 9th centile (finding)"
+          },
+          {
+            "code": "314692003",
+            "display": "Child height 10th - 24th centile (finding)"
+          },
+          {
+            "code": "314693008",
+            "display": "Child height = 25th centile (finding)"
+          },
+          {
+            "code": "314694002",
+            "display": "Child height 26th - 49th centile (finding)"
+          },
+          {
+            "code": "314695001",
+            "display": "Child height = 50th centile (finding)"
+          },
+          {
+            "code": "314696000",
+            "display": "Child height 51st - 74th centile (finding)"
+          },
+          {
+            "code": "314697009",
+            "display": "Child height = 75th centile (finding)"
+          },
+          {
+            "code": "314698004",
+            "display": "Child height 76th - 90th centile (finding)"
+          },
+          {
+            "code": "314699007",
+            "display": "Child height = 91st centile (finding)"
+          },
+          {
+            "code": "314700008",
+            "display": "Child height 92nd - 97th centile (finding)"
+          },
+          {
+            "code": "314701007",
+            "display": "Child height = 98th centile (finding)"
+          },
+          {
+            "code": "314702000",
+            "display": "Child height 98.1st - 99.6th centile (finding)"
+          },
+          {
+            "code": "314703005",
+            "display": "Child height > 99.6th centile (finding)"
+          },
+          {
+            "code": "314756007",
+            "display": "Child height = 0.4th centile (observable entity)"
+          },
+          {
+            "code": "418317006",
+            "display": "Height above average (finding)"
+          },
+          {
+            "code": "418519005",
+            "display": "Height below average (finding)"
+          },
+          {
+            "code": "425115008",
+            "display": "Abnormal height in relation to growth / age standard (finding)"
+          },
+          {
+            "code": "50373000",
+            "display": "Body height measure (observable entity)"
+          },
+          {
+            "code": "54871000237100",
+            "display": "Patient height (observable entity)"
+          },
+          {
+            "code": "594151000000105",
+            "display": "On examination - height NOS (finding)"
+          },
+          {
+            "code": "71781005",
+            "display": "Decrease in height (finding)"
+          },
+          {
+            "code": "758931000000104",
+            "display": "Height and weight measurement for National Child Measurement Programme (finding)"
+          },
+          {
+            "code": "845541000000105",
+            "display": "Waist to height ratio (observable entity)"
+          },
+          {
+            "code": "870593000",
+            "display": "Body height growth rate (observable entity)"
+          },
+          {
+            "code": "926081000000108",
+            "display": "Down syndrome height centile (observable entity)"
+          }
+        ]
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "height-interpretation-codes",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-05-22T13:42:58.460096+00:00",
+    "createdBy": "zchahl3",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Height interpretation codes.xlsx",
+        "date": "2026-05-22T13:42:58.460096+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
