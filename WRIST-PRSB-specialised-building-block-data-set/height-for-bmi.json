@@ -1,0 +1,205 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Height for BMI",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "1153637007",
+            "display": "Body height"
+          },
+          {
+            "code": "1162418000",
+            "display": "Estimated body height"
+          },
+          {
+            "code": "248337003",
+            "display": "Height from demispan"
+          },
+          {
+            "code": "1162417005",
+            "display": "Pre-amputation estimated body height"
+          },
+          {
+            "code": "1162392001",
+            "display": "Pre-amputation measured body height"
+          },
+          {
+            "code": "1149101003",
+            "display": "Recumbent body height"
+          },
+          {
+            "code": "1162419008",
+            "display": "Self reported body height"
+          },
+          {
+            "code": "1230278008",
+            "display": "Self reported peak adult body height"
+          },
+          {
+            "code": "248333004",
+            "display": "Standing height"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "Height-for-BMI",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Height for BMI</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/height-for-bmi-1282bc6cdb18",
+  "description": "A subset of height concepts that may be used to calculate a measured or estimated body mass index (BMI).",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1153637007",
+        "display": "Body height"
+      },
+      {
+        "code": "1162418000",
+        "display": "Estimated body height"
+      },
+      {
+        "code": "248337003",
+        "display": "Height from demispan"
+      },
+      {
+        "code": "1162417005",
+        "display": "Pre-amputation estimated body height"
+      },
+      {
+        "code": "1162392001",
+        "display": "Pre-amputation measured body height"
+      },
+      {
+        "code": "1149101003",
+        "display": "Recumbent body height"
+      },
+      {
+        "code": "1162419008",
+        "display": "Self reported body height"
+      },
+      {
+        "code": "1230278008",
+        "display": "Self reported peak adult body height"
+      },
+      {
+        "code": "248333004",
+        "display": "Standing height"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1153637007",
+        "display": "Body height",
+        "action": "include-only"
+      },
+      {
+        "code": "1162418000",
+        "display": "Estimated body height",
+        "action": "include-only"
+      },
+      {
+        "code": "248337003",
+        "display": "Height from demispan",
+        "action": "include-only"
+      },
+      {
+        "code": "1162417005",
+        "display": "Pre-amputation estimated body height",
+        "action": "include-only"
+      },
+      {
+        "code": "1162392001",
+        "display": "Pre-amputation measured body height",
+        "action": "include-only"
+      },
+      {
+        "code": "1149101003",
+        "display": "Recumbent body height",
+        "action": "include-only"
+      },
+      {
+        "code": "1162419008",
+        "display": "Self reported body height",
+        "action": "include-only"
+      },
+      {
+        "code": "1230278008",
+        "display": "Self reported peak adult body height",
+        "action": "include-only"
+      },
+      {
+        "code": "248333004",
+        "display": "Standing height",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "248333004",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "248333004"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "height-for-bmi",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-05-22T10:24:24.406810+00:00",
+    "createdBy": "zchahl3",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New value set.",
+        "date": "2026-05-22T10:24:24.406810+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
