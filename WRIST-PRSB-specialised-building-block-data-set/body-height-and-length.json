@@ -1,15 +1,59 @@
 {
-  "resourceType": "ValueSet",
-  "title": "Body height and length",
-  "status": "draft",
   "compose": {
     "include": [
       {
-        "filter": [
+        "concept": [
           {
-            "op": "=",
-            "property": "constraint",
-            "value": "(\n  (248337003|Height from demispan| OR 1003998008|Arm demispan| OR << 50373000|Body height measure|)\n) MINUS (\n  (925931000000103|Mid-parental height| OR 925951000000105|Predicted adult height| OR 248336007|Pubis to ground height| OR 276350001|Subischial leg length| OR 1153591001|Length for age percentile| OR 1153604005|Body height for age z-score| OR 1153590000|Length for age z score| OR 70931000052102 |Body height of biological father| OR 70941000052108 |Body height of biological mother|)\n)"
+            "code": "1003998008",
+            "display": "Arm demispan"
+          },
+          {
+            "code": "169886007",
+            "display": "Birth length"
+          },
+          {
+            "code": "1153637007",
+            "display": "Body height"
+          },
+          {
+            "code": "50373000",
+            "display": "Body height measure"
+          },
+          {
+            "code": "1162418000",
+            "display": "Estimated body height"
+          },
+          {
+            "code": "248337003",
+            "display": "Height from demispan"
+          },
+          {
+            "code": "1162417005",
+            "display": "Pre-amputation estimated body height"
+          },
+          {
+            "code": "1162392001",
+            "display": "Pre-amputation measured body height"
+          },
+          {
+            "code": "1149101003",
+            "display": "Recumbent body height"
+          },
+          {
+            "code": "1162419008",
+            "display": "Self reported body height"
+          },
+          {
+            "code": "1230278008",
+            "display": "Self reported peak adult body height"
+          },
+          {
+            "code": "248335006",
+            "display": "Sitting height"
+          },
+          {
+            "code": "248333004",
+            "display": "Standing height"
           }
         ],
         "system": "http://snomed.info/sct"
@@ -17,61 +61,155 @@
     ]
   },
   "name": "Body-height-and-length",
+  "resourceType": "ValueSet",
+  "status": "draft",
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Body height and length</p></div>",
     "status": "generated"
   },
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/body-height-and-length-2b782f6cf2a0",
-  "_bindingStrength": "example",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-ENG",
-          "display": "England"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-SCT",
-          "display": "Scotland"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-WLS",
-          "display": "Wales"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-NIR",
-          "display": "Northern Ireland"
-        }
-      ]
+  "title": "Body height and length",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/body-height-and-length-53edc0272d9e",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1003998008",
+        "display": "Arm demispan"
+      },
+      {
+        "code": "169886007",
+        "display": "Birth length"
+      },
+      {
+        "code": "1153637007",
+        "display": "Body height"
+      },
+      {
+        "code": "50373000",
+        "display": "Body height measure"
+      },
+      {
+        "code": "1162418000",
+        "display": "Estimated body height"
+      },
+      {
+        "code": "248337003",
+        "display": "Height from demispan"
+      },
+      {
+        "code": "1162417005",
+        "display": "Pre-amputation estimated body height"
+      },
+      {
+        "code": "1162392001",
+        "display": "Pre-amputation measured body height"
+      },
+      {
+        "code": "1149101003",
+        "display": "Recumbent body height"
+      },
+      {
+        "code": "1162419008",
+        "display": "Self reported body height"
+      },
+      {
+        "code": "1230278008",
+        "display": "Self reported peak adult body height"
+      },
+      {
+        "code": "248335006",
+        "display": "Sitting height"
+      },
+      {
+        "code": "248333004",
+        "display": "Standing height"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1003998008",
+        "display": "Arm demispan",
+        "action": "include-only"
+      },
+      {
+        "code": "169886007",
+        "display": "Birth length",
+        "action": "include-only"
+      },
+      {
+        "code": "1153637007",
+        "display": "Body height",
+        "action": "include-only"
+      },
+      {
+        "code": "50373000",
+        "display": "Body height measure",
+        "action": "include-only"
+      },
+      {
+        "code": "1162418000",
+        "display": "Estimated body height",
+        "action": "include-only"
+      },
+      {
+        "code": "248337003",
+        "display": "Height from demispan",
+        "action": "include-only"
+      },
+      {
+        "code": "1162417005",
+        "display": "Pre-amputation estimated body height",
+        "action": "include-only"
+      },
+      {
+        "code": "1162392001",
+        "display": "Pre-amputation measured body height",
+        "action": "include-only"
+      },
+      {
+        "code": "1149101003",
+        "display": "Recumbent body height",
+        "action": "include-only"
+      },
+      {
+        "code": "1162419008",
+        "display": "Self reported body height",
+        "action": "include-only"
+      },
+      {
+        "code": "1230278008",
+        "display": "Self reported peak adult body height",
+        "action": "include-only"
+      },
+      {
+        "code": "248335006",
+        "display": "Sitting height",
+        "action": "include-only"
+      },
+      {
+        "code": "248333004",
+        "display": "Standing height",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "248333004",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "248333004"
     }
-  ],
+  },
   "_libraryMeta": {
-    "version": "1-build.0.0",
+    "version": "1-build.0.1",
     "slug": "body-height-and-length",
     "collection": "WRIST-PRSB-specialised-building-block-data-set",
-    "updatedAt": "2026-05-21T10:56:32.299091+00:00",
+    "updatedAt": "2026-05-22T14:57:42.300082+00:00",
     "createdBy": "zchahl3",
     "changeLog": [
       {
-        "version": "1-build.0.0",
-        "reason": "New value set.",
-        "date": "2026-05-21T10:56:32.299091+00:00",
+        "version": "1-build.0.1",
+        "reason": "Modelled as enumerated list due to incongruence in items returned via ECL.",
+        "date": "2026-05-22T14:57:42.300082+00:00",
         "author": "zchahl3"
       }
     ]
