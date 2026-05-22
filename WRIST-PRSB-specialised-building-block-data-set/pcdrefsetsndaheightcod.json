@@ -1,17 +1,28 @@
 {
-  "resourceType": "ValueSet",
-  "status": "draft",
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/pcdrefsetsndaheightcod-f86801dfdabd",
-  "name": "pcdrefsetsndaheightcod",
-  "title": "PCD_refsets_NDAHEIGHT_COD",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>PCD_refsets_NDAHEIGHT_COD</p></div>"
+  "_libraryMeta": {
+    "changeLog": [
+      {
+        "author": "zchahl3",
+        "date": "2026-05-22T13:56:11.974040+00:00",
+        "reason": "Import from Height interpretation codes.xlsx",
+        "version": "1-build.0.0"
+      },
+      {
+        "version": "1-build.0.1",
+        "reason": "Description updated.",
+        "date": "2026-05-22T14:00:39.254310+00:00",
+        "author": "zchahl3"
+      }
+    ],
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "createdBy": "zchahl3",
+    "slug": "pcdrefsetsndaheightcod",
+    "updatedAt": "2026-05-22T14:00:39.254310+00:00",
+    "version": "1-build.0.1"
   },
   "compose": {
     "include": [
       {
-        "system": "http://snomed.info/sct",
         "concept": [
           {
             "code": "1153600001",
@@ -333,23 +344,30 @@
             "code": "926081000000108",
             "display": "Down syndrome height centile (observable entity)"
           }
-        ]
+        ],
+        "system": "http://snomed.info/sct"
       }
     ]
   },
-  "_libraryMeta": {
-    "version": "1-build.0.0",
-    "slug": "pcdrefsetsndaheightcod",
-    "collection": "WRIST-PRSB-specialised-building-block-data-set",
-    "updatedAt": "2026-05-22T13:56:11.974040+00:00",
-    "createdBy": "zchahl3",
-    "changeLog": [
-      {
-        "version": "1-build.0.0",
-        "reason": "Import from Height interpretation codes.xlsx",
-        "date": "2026-05-22T13:56:11.974040+00:00",
-        "author": "zchahl3"
-      }
-    ]
-  }
+  "name": "pcdrefsetsndaheightcod",
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>PCD_refsets_NDAHEIGHT_COD</p></div>",
+    "status": "generated"
+  },
+  "title": "PCD_refsets_NDAHEIGHT_COD",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/pcdrefsetsndaheightcod-f86801dfdabd",
+  "description": "Copy of the PCD refset NDAHEIGHT_COD. Cloned 22/05/2026 available at [ https://app.powerbi.com/view?r=eyJrIjoiNDRmYjEwMzQtZGE3MS00ZGE5LTgwMTUtNjQ2NGE1NTZiYmEzIiwidCI6IjM3YzM1NGIyLTg1YjAtNDdmNS1iMjIyLTA3YjQ4ZDc3NGVlMyJ9 ]",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    }
+  ]
 }
