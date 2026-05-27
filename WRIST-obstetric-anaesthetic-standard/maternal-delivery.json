@@ -15,13 +15,12 @@
       }
     ]
   },
-  "name": "MaternalDelivery",
+  "name": "Maternaldelivery",
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Maternal Delivery</p></div>",
     "status": "generated"
   },
   "url": "https://ramseysystems.co.uk/fhir/ValueSet/maternaldelivery-22b89610080d",
-  "description": "<p><br></p>",
   "_builderState": {
     "mode": "snomed-tree",
     "roots": [
@@ -38,7 +37,7 @@
       }
     ],
     "search": {
-      "query": "^1127631000000101 |Maternal delivery procedures simple reference set (foundation metadata concept)|",
+      "query": "SNOMED CT : - ^1127631000000101 |Maternal delivery procedures simple reference set (foundation metadata concept)|",
       "activeOnly": true,
       "refsetCode": "",
       "inspectingCode": "1127631000000101"
@@ -46,16 +45,16 @@
   },
   "_bindingStrength": "preferred",
   "_libraryMeta": {
-    "version": "1-build.0.0",
+    "version": "1-build.0.1",
     "slug": "maternal-delivery",
     "collection": "WRIST-obstetric-anaesthetic-standard",
-    "updatedAt": "2026-05-27T13:12:40.236701+00:00",
+    "updatedAt": "2026-05-27T13:37:57.528760+00:00",
     "createdBy": "PRSBandrew",
     "changeLog": [
       {
-        "version": "1-build.0.0",
+        "version": "1-build.0.1",
         "reason": "Initial Creation",
-        "date": "2026-05-27T13:12:40.236701+00:00",
+        "date": "2026-05-27T13:37:57.528760+00:00",
         "author": "PRSBandrew"
       }
     ]
