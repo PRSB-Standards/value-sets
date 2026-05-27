@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Job Role Code",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/attributes/job_role_code.html",
+  "name": "Jobrolecode",
+  "description": "NHS Data Dictionary",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/attributes/job_role_code.html",
+    "display": "NHS data dictionary :- Job Role Code"
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "job-role-code",
+    "collection": "WRIST-obstetric-anaesthetic-standard",
+    "updatedAt": "2026-05-27T14:26:57.165582+00:00",
+    "createdBy": "PRSBandrew",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Initial Creation",
+        "date": "2026-05-27T14:26:57.165582+00:00",
+        "author": "PRSBandrew"
+      }
+    ]
+  }
+}
