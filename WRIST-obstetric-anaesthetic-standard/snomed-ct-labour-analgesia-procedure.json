@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "title": "SNOMED CT  Labour analgesia procedure",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "https://theprsb.org/value-sets/oas-labour-analgesia-procedure/"
+          }
+        ],
+        "system": "SNOMED CT"
+      }
+    ]
+  },
+  "name": "SNOMED_CT__Labour_analgesia_procedure",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "snomed-ct-labour-analgesia-procedure",
+    "collection": "WRIST-obstetric-anaesthetic-standard",
+    "updatedAt": "2026-06-03T16:07:37.869527+00:00",
+    "createdBy": "PRSBandrew",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Creating in liibrary",
+        "date": "2026-06-03T16:07:37.869527+00:00",
+        "author": "PRSBandrew"
+      }
+    ]
+  }
+}
