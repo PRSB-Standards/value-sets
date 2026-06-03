@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Boolean yes/no",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "PLACEHOLDER"
+      }
+    ]
+  },
+  "name": "Boolean_yes_no",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "boolean-yesno",
+    "collection": "WRIST-obstetric-anaesthetic-standard",
+    "updatedAt": "2026-06-03T16:12:22.283918+00:00",
+    "createdBy": "PRSBandrew",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Initial creation",
+        "date": "2026-06-03T16:12:22.283918+00:00",
+        "author": "PRSBandrew"
+      }
+    ]
+  }
+}
