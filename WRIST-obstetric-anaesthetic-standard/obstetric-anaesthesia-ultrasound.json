@@ -1,0 +1,125 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Obstetric Anaesthesia Ultrasound",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "61593002",
+            "display": "Ultrasonic guidance procedure"
+          },
+          {
+            "code": "16310003",
+            "display": "Ultrasonography"
+          },
+          {
+            "code": "843961000000104",
+            "display": "Ultrasonography guided catheterisation of epidural space"
+          },
+          {
+            "code": "45036003",
+            "display": "Ultrasonography of abdomen"
+          },
+          {
+            "code": "275631000000109",
+            "display": "US scan of back"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "Obstetric-Anaesthesia-Ultrasound",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Obstetric Anaesthesia Ultrasound</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/obstetric-anaesthesia-ultrasound-dff603a22131",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "61593002",
+        "display": "Ultrasonic guidance procedure"
+      },
+      {
+        "code": "16310003",
+        "display": "Ultrasonography"
+      },
+      {
+        "code": "843961000000104",
+        "display": "Ultrasonography guided catheterisation of epidural space"
+      },
+      {
+        "code": "45036003",
+        "display": "Ultrasonography of abdomen"
+      },
+      {
+        "code": "275631000000109",
+        "display": "US scan of back"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "61593002",
+        "display": "Ultrasonic guidance procedure",
+        "action": "include-only"
+      },
+      {
+        "code": "16310003",
+        "display": "Ultrasonography",
+        "action": "include-only"
+      },
+      {
+        "code": "843961000000104",
+        "display": "Ultrasonography guided catheterisation of epidural space",
+        "action": "include-only"
+      },
+      {
+        "code": "45036003",
+        "display": "Ultrasonography of abdomen",
+        "action": "include-only"
+      },
+      {
+        "code": "275631000000109",
+        "display": "US scan of back",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "275631000000109",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "275631000000109"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB",
+          "display": "United Kingdom"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "obstetric-anaesthesia-ultrasound",
+    "collection": "WRIST-obstetric-anaesthetic-standard",
+    "updatedAt": "2026-06-04T12:55:40.771410+00:00",
+    "createdBy": "scb1966",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "new",
+        "date": "2026-06-04T12:55:40.771410+00:00",
+        "author": "scb1966"
+      }
+    ]
+  }
+}
