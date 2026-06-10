@@ -1,0 +1,95 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/anaesthesia-analgesia-complications-actions-32b531f7d22a",
+  "name": "anaesthesia-analgesia-complications-actions",
+  "title": "Anaesthesia analgesia complications actions",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Anaesthesia analgesia complications actions</p></div>"
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1956111000000101",
+            "display": "CT guided injection of autologous whole blood into spinal epidural space"
+          },
+          {
+            "code": "56721008",
+            "display": "Epidural lumbar injection of blood patch"
+          },
+          {
+            "code": "713381008",
+            "display": "Lipid rescue therapy"
+          },
+          {
+            "code": "118441006",
+            "display": "Evacuation of haematoma"
+          },
+          {
+            "code": "447366001",
+            "display": "Injection of autologous whole blood into spinal epidural space"
+          },
+          {
+            "code": "429705000",
+            "display": "Insertion of oesophageal tracheal combitube"
+          },
+          {
+            "code": "427753009",
+            "display": "Insertion of oesophageal tracheal double lumen supraglottic airway"
+          },
+          {
+            "code": "173067007",
+            "display": "Cricothyroidotomy"
+          },
+          {
+            "code": "69621000052107",
+            "display": "Flexible bronchoscopy"
+          },
+          {
+            "code": "250980009",
+            "display": "Cardioversion"
+          },
+          {
+            "code": "89666000",
+            "display": "Cardiopulmonary resuscitation"
+          },
+          {
+            "code": "40617009",
+            "display": "Artificial ventilation"
+          },
+          {
+            "code": "448442005",
+            "display": "Transtracheal jet ventilation"
+          },
+          {
+            "code": "447996002",
+            "display": "Intubation of respiratory tract"
+          },
+          {
+            "code": "55622001",
+            "display": "Tracheostomy, emergency procedure by transtracheal approach"
+          }
+        ]
+      }
+    ]
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "anaesthesia-analgesia-complications-actions",
+    "collection": "WRIST-obstetric-anaesthetic-standard",
+    "updatedAt": "2026-06-10T10:53:45.293727+00:00",
+    "createdBy": "scb1966",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Import from Anaesthesiaanalgesiacomplicationsactionssct_17122025.xlsx",
+        "date": "2026-06-10T10:53:45.293727+00:00",
+        "author": "scb1966"
+      }
+    ]
+  }
+}
