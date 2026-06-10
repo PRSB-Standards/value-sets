@@ -1,0 +1,100 @@
+{
+  "resourceType": "ValueSet",
+  "title": "1464781000000105 |Percentage of time in target glucose range to total glucose monitoring time using minimally-invasive continuous glucose monitoring device|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "1464781000000105",
+            "display": "Percentage of time in target glucose range to total glucose monitoring time using minimally-invasive continuous glucose monitoring device"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "1464781000000105",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>1464781000000105 |Percentage of time in target glucose range to total glucose monitoring time using minimally-invasive continuous glucose monitoring device|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/1464781000000105-d369829a0345",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1464781000000105",
+        "display": "Percentage of time in target glucose range to total glucose monitoring time using minimally-invasive continuous glucose monitoring device"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1464781000000105",
+        "display": "Percentage of time in target glucose range to total glucose monitoring time using minimally-invasive continuous glucose monitoring device",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "1464781000000105",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1464781000000105"
+    }
+  },
+  "_bindingStrength": "required",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "1464781000000105-percentage-of-time-in-target-glucose-range-to-total-glucose-monitoring-time-using-minimally-invasive-continuous-glucose-monitoring-device",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-06-10T14:07:55.960331+00:00",
+    "createdBy": "zchahl3",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-06-10T14:07:55.960331+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
