@@ -1,0 +1,100 @@
+{
+  "resourceType": "ValueSet",
+  "title": "1464891000000104 |Glucose Management Indicator expressed as substance concentration ratio|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "1464891000000104",
+            "display": "Glucose Management Indicator expressed as substance concentration ratio"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "1464891000000104",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>1464891000000104 |Glucose Management Indicator expressed as substance concentration ratio|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/1464891000000104-1f8b880747ed",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1464891000000104",
+        "display": "Glucose Management Indicator expressed as substance concentration ratio"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1464891000000104",
+        "display": "Glucose Management Indicator expressed as substance concentration ratio",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "1464891000000104",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1464891000000104"
+    }
+  },
+  "_bindingStrength": "required",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "1464891000000104-glucose-management-indicator-expressed-as-substance-concentration-ratio",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-06-18T16:04:26.441604+00:00",
+    "createdBy": "zchahl3",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-06-18T16:04:26.441604+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
