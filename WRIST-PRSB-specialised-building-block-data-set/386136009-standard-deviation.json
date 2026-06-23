@@ -1,0 +1,100 @@
+{
+  "resourceType": "ValueSet",
+  "title": "386136009 |Standard deviation|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "386136009",
+            "display": "Standard deviation"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "386136009",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>386136009 |Standard deviation|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/386136009-e6a0026f0d54",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "386136009",
+        "display": "Standard deviation"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "386136009",
+        "display": "Standard deviation",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "386136009",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "386136009"
+    }
+  },
+  "_bindingStrength": "example",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "386136009-standard-deviation",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-06-23T10:58:30.474930+00:00",
+    "createdBy": "zchahl3",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New (placedholder).",
+        "date": "2026-06-23T10:58:30.474930+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
