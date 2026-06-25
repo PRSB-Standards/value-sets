@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "title": "1515761000000107 |Percentage of continuous glucose monitoring sensor failures to total sensors applied recorded by subject of record|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "1515761000000107",
+            "display": "Percentage of continuous glucose monitoring sensor failures to total sensors applied recorded by subject of record"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "1515761000000107",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>1515761000000107 |Percentage of continuous glucose monitoring sensor failures to total sensors applied recorded by subject of record|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/1515761000000107-a85f7339744d",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1515761000000107",
+        "display": "Percentage of continuous glucose monitoring sensor failures to total sensors applied recorded by subject of record"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1515761000000107",
+        "display": "Percentage of continuous glucose monitoring sensor failures to total sensors applied recorded by subject of record",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "1515761000000107",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1515761000000107"
+    }
+  },
+  "_bindingStrength": "required",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "1515761000000107-percentage-of-continuous-glucose-monitoring-sensor-failures-to-total-sensors-applied-recorded-by-subject-of-record",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-06-25T15:35:36.363547+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-06-25T15:35:36.363547+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-06-25T15:35:36.363547+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
