@@ -1,0 +1,80 @@
+{
+  "resourceType": "ValueSet",
+  "title": "suppliers",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "<! 2092701000001102|Miscellaneous suppliers information| OR <! 2272001000001102|Suppliers A| OR <! 2063301000001105|Suppliers B| OR <! 2272101000001101|Suppliers C| OR <! 2070001000001108|Suppliers D| OR <! 2272201000001108|Suppliers E| OR <! 123401000001100|Suppliers F| OR <! 137401000001105|Suppliers G| OR <! 152701000001104|Suppliers H - I| OR <! 2072401000001102|Suppliers J - K| OR <! 2272301000001104|Suppliers L| OR <! 2272401000001107|Suppliers M| OR <! 2078401000001100|Suppliers N - O| OR <! 2272501000001106|Suppliers P| OR <! 2272601000001105|Suppliers Q - R| OR <! 3162601000001105|Suppliers S| OR <! 2088801000001109|Suppliers T - V| OR <! 2272701000001100|Suppliers W - Z|"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "suppliers",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>suppliers</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/suppliers-3e45f262feb0",
+  "_bindingStrength": "required",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "suppliers",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-06-27T16:11:09.918775+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-06-27T16:11:09.918775+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-06-27T16:11:09.918775+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
