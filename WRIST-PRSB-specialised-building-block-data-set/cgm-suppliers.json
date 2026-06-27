@@ -1,0 +1,193 @@
+{
+  "resourceType": "ValueSet",
+  "title": "CGM suppliers",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "2061801000001104",
+            "display": "Abbott Laboratories Ltd"
+          },
+          {
+            "code": "3058611000001109",
+            "display": "A. Menarini Diagnostics Ltd"
+          },
+          {
+            "code": "40815811000001108",
+            "display": "Dexcom International Ltd"
+          },
+          {
+            "code": "23109611000001102",
+            "display": "GlucoRx Ltd"
+          },
+          {
+            "code": "19585811000001109",
+            "display": "Medtronic Ltd"
+          },
+          {
+            "code": "43293911000001109",
+            "display": "Medtrum Ltd"
+          },
+          {
+            "code": "3516001000001106",
+            "display": "Roche Diagnostics Ltd"
+          },
+          {
+            "code": "15615111000001101",
+            "display": "Spirit Healthcare Ltd"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "CGM-suppliers",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>CGM suppliers</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/cgm-suppliers-c1c75b1d2663",
+  "description": "Extensible example value set of continuous glucose monitoring (CGM) device suppliers.",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "2061801000001104",
+        "display": "Abbott Laboratories Ltd"
+      },
+      {
+        "code": "3058611000001109",
+        "display": "A. Menarini Diagnostics Ltd"
+      },
+      {
+        "code": "40815811000001108",
+        "display": "Dexcom International Ltd"
+      },
+      {
+        "code": "23109611000001102",
+        "display": "GlucoRx Ltd"
+      },
+      {
+        "code": "19585811000001109",
+        "display": "Medtronic Ltd"
+      },
+      {
+        "code": "43293911000001109",
+        "display": "Medtrum Ltd"
+      },
+      {
+        "code": "3516001000001106",
+        "display": "Roche Diagnostics Ltd"
+      },
+      {
+        "code": "15615111000001101",
+        "display": "Spirit Healthcare Ltd"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "2061801000001104",
+        "display": "Abbott Laboratories Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "3058611000001109",
+        "display": "A. Menarini Diagnostics Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "40815811000001108",
+        "display": "Dexcom International Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "23109611000001102",
+        "display": "GlucoRx Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "19585811000001109",
+        "display": "Medtronic Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "43293911000001109",
+        "display": "Medtrum Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "3516001000001106",
+        "display": "Roche Diagnostics Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "15615111000001101",
+        "display": "Spirit Healthcare Ltd",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "spirit healthc",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "15615111000001101"
+    }
+  },
+  "_bindingStrength": "example",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "cgm-suppliers",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-06-27T16:20:31.030891+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-06-27T16:20:31.030891+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-06-27T16:20:31.030891+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
