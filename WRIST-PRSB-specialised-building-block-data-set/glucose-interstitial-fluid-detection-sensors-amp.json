@@ -1,0 +1,172 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Glucose interstitial fluid detection sensors (AMP)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "43294511000001104",
+            "display": "A8 TouchCare Nano Sensor MD3658 (Medtrum Ltd)"
+          },
+          {
+            "code": "43294011000001107",
+            "display": "A8 TouchCare Nano Transmitter MD1158 (Medtrum Ltd)"
+          },
+          {
+            "code": "45598811000001106",
+            "display": "Accu-Chek SmartGuide Sensor (Roche Diagnostics Ltd)"
+          },
+          {
+            "code": "44434911000001104",
+            "display": "CareSens Air Sensor (Spirit Healthcare Ltd)"
+          },
+          {
+            "code": "43229311000001102",
+            "display": "Dexcom G6 Receiver (Dexcom International Ltd)"
+          },
+          {
+            "code": "43230111000001107",
+            "display": "Dexcom G6 Sensor (Dexcom International Ltd)"
+          },
+          {
+            "code": "43228811000001104",
+            "display": "Dexcom G6 Transmitter (Dexcom International Ltd)"
+          },
+          {
+            "code": "43229111000001104",
+            "display": "Dexcom G7 Receiver (Dexcom International Ltd)"
+          },
+          {
+            "code": "43230011000001106",
+            "display": "Dexcom G7 Sensor (Dexcom International Ltd)"
+          },
+          {
+            "code": "41449411000001101",
+            "display": "Dexcom One CGM System (Dexcom International Ltd)"
+          },
+          {
+            "code": "40813511000001106",
+            "display": "Dexcom One Sensor (Dexcom International Ltd)"
+          },
+          {
+            "code": "41449711000001107",
+            "display": "Dexcom One Transmitter (Dexcom International Ltd)"
+          },
+          {
+            "code": "42745011000001104",
+            "display": "Dexcom One+ Sensor (Dexcom International Ltd)"
+          },
+          {
+            "code": "42695211000001105",
+            "display": "FreeStyle Libre 2 Plus Sensor (Abbott Laboratories Ltd)"
+          },
+          {
+            "code": "39094611000001105",
+            "display": "FreeStyle Libre 2 Sensor (Abbott Laboratories Ltd)"
+          },
+          {
+            "code": "44206811000001108",
+            "display": "FreeStyle Libre 3 Plus Sensor (Abbott Laboratories Ltd)"
+          },
+          {
+            "code": "42494311000001103",
+            "display": "FreeStyle Libre 3 Sensor (Abbott Laboratories Ltd)"
+          },
+          {
+            "code": "34865811000001107",
+            "display": "FreeStyle Libre Sensor (Abbott Laboratories Ltd)"
+          },
+          {
+            "code": "40889211000001108",
+            "display": "GlucoMen Day CGM Sensor (A. Menarini Diagnostics Ltd)"
+          },
+          {
+            "code": "45213711000001101",
+            "display": "GlucoMen iCan Sensor (A. Menarini Diagnostics Ltd)"
+          },
+          {
+            "code": "40571611000001104",
+            "display": "GlucoRx AiDEX Sensor (GlucoRx Ltd)"
+          },
+          {
+            "code": "41567811000001106",
+            "display": "GlucoRx AiDEX Transmitter (GlucoRx Ltd)"
+          },
+          {
+            "code": "42929611000001103",
+            "display": "Guardian 4 Link Transmitter Replacement MMT-7841W1 (Medtronic Ltd)"
+          },
+          {
+            "code": "42928811000001106",
+            "display": "Guardian 4 Sensor (Medtronic Ltd)"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "Glucose-interstitial-fluid-detection-sensors-(AMP)",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Glucose interstitial fluid detection sensors (AMP)</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/glucose-interstitial-fluid-detection-sensors-amp-b2063f1fa820",
+  "description": "Extensible example value set for continuous glucose monitoring (CGM) devices.",
+  "_bindingStrength": "example",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "glucose-interstitial-fluid-detection-sensors-amp",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-06-27T16:37:25.190657+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-06-27T16:37:25.190657+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-06-27T16:37:25.190657+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
