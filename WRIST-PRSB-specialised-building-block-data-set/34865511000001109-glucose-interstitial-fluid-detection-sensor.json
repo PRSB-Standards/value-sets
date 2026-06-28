@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
   "status": "draft",
-  "title": "<!34865511000001109 |Glucose interstitial fluid detection sensor|",
-  "name": "__34865511000001109__Glucose_interstitial_fluid_detection_sensor",
+  "title": "34865511000001109 |Glucose interstitial fluid detection sensor|",
+  "name": "34865511000001109__Glucose_interstitial_fluid_detection_sensor_",
   "compose": {
     "include": [
       {
@@ -16,17 +16,17 @@
     ]
   },
   "_libraryMeta": {
-    "version": "1-build.0.1",
+    "version": "1-build.0.2",
     "slug": "34865511000001109-glucose-interstitial-fluid-detection-sensor",
     "collection": "WRIST-PRSB-specialised-building-block-data-set",
-    "updatedAt": "2026-06-28T15:23:13.221205+00:00",
+    "updatedAt": "2026-06-28T15:25:03.969351+00:00",
     "createdBy": "zchahl3",
-    "createdAt": "2026-06-28T15:23:13.221205+00:00",
+    "createdAt": "2026-06-28T15:25:03.969351+00:00",
     "changeLog": [
       {
-        "version": "1-build.0.1",
-        "reason": "Fixed error in ECL.",
-        "date": "2026-06-28T15:23:13.221205+00:00",
+        "version": "1-build.0.2",
+        "reason": "Error correction.",
+        "date": "2026-06-28T15:25:03.969351+00:00",
         "author": "zchahl3"
       }
     ]
