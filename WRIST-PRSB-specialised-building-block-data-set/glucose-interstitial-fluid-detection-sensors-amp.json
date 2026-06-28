@@ -1,11 +1,12 @@
 {
-  "resourceType": "ValueSet",
-  "title": "Glucose interstitial fluid detection sensors (AMP)",
-  "status": "draft",
   "compose": {
     "include": [
       {
         "concept": [
+          {
+            "code": "45761211000001100",
+            "display": "ALLYcgm Sensor (AgaMatrix Europe Ltd)"
+          },
           {
             "code": "43294511000001104",
             "display": "A8 TouchCare Nano Sensor MD3658 (Medtrum Ltd)"
@@ -101,6 +102,10 @@
           {
             "code": "42928811000001106",
             "display": "Guardian 4 Sensor (Medtronic Ltd)"
+          },
+          {
+            "code": "45773911000001103",
+            "display": "Sibionics GS3-R Sensor (Shenzhen Sisensing Co., Ltd)"
           }
         ],
         "system": "https://dmd.nhs.uk"
@@ -108,63 +113,27 @@
     ]
   },
   "name": "Glucose-interstitial-fluid-detection-sensors-(AMP)",
+  "resourceType": "ValueSet",
+  "status": "draft",
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Glucose interstitial fluid detection sensors (AMP)</p></div>",
     "status": "generated"
   },
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/glucose-interstitial-fluid-detection-sensors-amp-b2063f1fa820",
+  "title": "Glucose interstitial fluid detection sensors (AMP)",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/glucose-interstitial-fluid-detection-sensors-amp-eec9af5263c3",
   "description": "Extensible example value set for continuous glucose monitoring (CGM) devices.",
-  "_bindingStrength": "example",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-ENG",
-          "display": "England"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-SCT",
-          "display": "Scotland"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-WLS",
-          "display": "Wales"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-NIR",
-          "display": "Northern Ireland"
-        }
-      ]
-    }
-  ],
   "_libraryMeta": {
-    "version": "1-build.0.0",
+    "version": "1-build.1.0",
     "slug": "glucose-interstitial-fluid-detection-sensors-amp",
     "collection": "WRIST-PRSB-specialised-building-block-data-set",
-    "updatedAt": "2026-06-27T16:37:25.190657+00:00",
+    "updatedAt": "2026-06-28T15:35:15.492128+00:00",
     "createdBy": "zchahl3",
-    "createdAt": "2026-06-27T16:37:25.190657+00:00",
+    "createdAt": "2026-06-28T15:35:15.492128+00:00",
     "changeLog": [
       {
-        "version": "1-build.0.0",
-        "reason": "New.",
-        "date": "2026-06-27T16:37:25.190657+00:00",
+        "version": "1-build.1.0",
+        "reason": "Two new continuous glucose monitoring devices added: ALLYcgm Sensor (AgaMatrix Europe Ltd)",
+        "date": "2026-06-28T15:35:15.492128+00:00",
         "author": "zchahl3"
       }
     ]
