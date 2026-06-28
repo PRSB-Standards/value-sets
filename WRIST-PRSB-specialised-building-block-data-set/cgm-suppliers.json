@@ -1,7 +1,4 @@
 {
-  "resourceType": "ValueSet",
-  "title": "CGM suppliers",
-  "status": "draft",
   "compose": {
     "include": [
       {
@@ -37,6 +34,14 @@
           {
             "code": "15615111000001101",
             "display": "Spirit Healthcare Ltd"
+          },
+          {
+            "code": "13913311000001109",
+            "display": "AgaMatrix Europe Ltd"
+          },
+          {
+            "code": "45774011000001100",
+            "display": "Shenzhen Sisensing Co., Ltd"
           }
         ],
         "system": "http://snomed.info/sct"
@@ -44,11 +49,14 @@
     ]
   },
   "name": "CGM-suppliers",
+  "resourceType": "ValueSet",
+  "status": "draft",
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>CGM suppliers</p></div>",
     "status": "generated"
   },
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/cgm-suppliers-c1c75b1d2663",
+  "title": "CGM suppliers",
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/cgm-suppliers-1fb903d81bd7",
   "description": "Extensible example value set of continuous glucose monitoring (CGM) device suppliers.",
   "_builderState": {
     "mode": "snomed-tree",
@@ -84,6 +92,14 @@
       {
         "code": "15615111000001101",
         "display": "Spirit Healthcare Ltd"
+      },
+      {
+        "code": "13913311000001109",
+        "display": "AgaMatrix Europe Ltd"
+      },
+      {
+        "code": "45774011000001100",
+        "display": "Shenzhen Sisensing Co., Ltd"
       }
     ],
     "decisions": [
@@ -126,66 +142,37 @@
         "code": "15615111000001101",
         "display": "Spirit Healthcare Ltd",
         "action": "include-only"
+      },
+      {
+        "code": "13913311000001109",
+        "display": "AgaMatrix Europe Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "45774011000001100",
+        "display": "Shenzhen Sisensing Co., Ltd",
+        "action": "include-only"
       }
     ],
     "search": {
-      "query": "spirit healthc",
+      "query": "SHENZHENG",
       "activeOnly": true,
       "refsetCode": "",
-      "inspectingCode": "15615111000001101"
+      "inspectingCode": "45774011000001100"
     }
   },
-  "_bindingStrength": "example",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-ENG",
-          "display": "England"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-SCT",
-          "display": "Scotland"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-WLS",
-          "display": "Wales"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-NIR",
-          "display": "Northern Ireland"
-        }
-      ]
-    }
-  ],
   "_libraryMeta": {
-    "version": "1-build.0.0",
+    "version": "1-build.1.0",
     "slug": "cgm-suppliers",
     "collection": "WRIST-PRSB-specialised-building-block-data-set",
-    "updatedAt": "2026-06-27T16:20:31.030891+00:00",
+    "updatedAt": "2026-06-28T15:42:30.379353+00:00",
     "createdBy": "zchahl3",
-    "createdAt": "2026-06-27T16:20:31.030891+00:00",
+    "createdAt": "2026-06-28T15:42:30.379353+00:00",
     "changeLog": [
       {
-        "version": "1-build.0.0",
-        "reason": "New.",
-        "date": "2026-06-27T16:20:31.030891+00:00",
+        "version": "1-build.1.0",
+        "reason": "Two new suppliers added.",
+        "date": "2026-06-28T15:42:30.379353+00:00",
         "author": "zchahl3"
       }
     ]
