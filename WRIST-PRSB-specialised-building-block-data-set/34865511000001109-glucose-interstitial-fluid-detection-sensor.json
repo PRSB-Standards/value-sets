@@ -1,77 +1,32 @@
 {
   "resourceType": "ValueSet",
-  "title": "34865511000001109 |Glucose interstitial fluid detection sensor|",
   "status": "draft",
+  "title": "<!34865511000001109 |Glucose interstitial fluid detection sensor|",
+  "name": "__34865511000001109__Glucose_interstitial_fluid_detection_sensor",
   "compose": {
     "include": [
       {
+        "system": "https://dmd.nhs.uk",
         "concept": [
           {
-            "code": "34865511000001109",
-            "display": "Glucose interstitial fluid detection sensor"
+            "code": "https://dmd.nhs.uk"
           }
-        ],
-        "system": "https://dmd.nhs.uk"
+        ]
       }
     ]
   },
-  "name": "34865511000001109",
-  "text": {
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>34865511000001109 |Glucose interstitial fluid detection sensor|</p></div>",
-    "status": "generated"
-  },
-  "url": "https://ramseysystems.co.uk/fhir/ValueSet/34865511000001109-6465f2ed649f",
-  "_bindingStrength": "required",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-ENG",
-          "display": "England"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-SCT",
-          "display": "Scotland"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-WLS",
-          "display": "Wales"
-        }
-      ]
-    },
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166:-2",
-          "code": "GB-NIR",
-          "display": "Northern Ireland"
-        }
-      ]
-    }
-  ],
   "_libraryMeta": {
-    "version": "1-build.0.0",
+    "version": "1-build.0.1",
     "slug": "34865511000001109-glucose-interstitial-fluid-detection-sensor",
     "collection": "WRIST-PRSB-specialised-building-block-data-set",
-    "updatedAt": "2026-06-27T16:07:21.613161+00:00",
+    "updatedAt": "2026-06-28T15:23:13.221205+00:00",
     "createdBy": "zchahl3",
-    "createdAt": "2026-06-27T16:07:21.613161+00:00",
+    "createdAt": "2026-06-28T15:23:13.221205+00:00",
     "changeLog": [
       {
-        "version": "1-build.0.0",
-        "reason": "New.",
-        "date": "2026-06-27T16:07:21.613161+00:00",
+        "version": "1-build.0.1",
+        "reason": "Fixed error in ECL.",
+        "date": "2026-06-28T15:23:13.221205+00:00",
         "author": "zchahl3"
       }
     ]
