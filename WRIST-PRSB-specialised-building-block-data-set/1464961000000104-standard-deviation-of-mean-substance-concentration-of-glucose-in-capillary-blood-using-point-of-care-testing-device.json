@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "title": "1464961000000104 |Standard deviation of mean substance concentration of glucose in capillary blood using point-of-care testing device|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "1464961000000104",
+            "display": "Standard deviation of mean substance concentration of glucose in capillary blood using point-of-care testing device"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "1464961000000104",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>1464961000000104 |Standard deviation of mean substance concentration of glucose in capillary blood using point-of-care testing device|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/1464961000000104-30343e2e0700",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1464961000000104",
+        "display": "Standard deviation of mean substance concentration of glucose in capillary blood using point-of-care testing device"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1464961000000104",
+        "display": "Standard deviation of mean substance concentration of glucose in capillary blood using point-of-care testing device",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "1464961000000104",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1464961000000104"
+    }
+  },
+  "_bindingStrength": "required",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "1464961000000104-standard-deviation-of-mean-substance-concentration-of-glucose-in-capillary-blood-using-point-of-care-testing-device",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-07-06T14:15:53.569981+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-07-06T14:15:53.569981+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-07-06T14:15:53.569981+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
