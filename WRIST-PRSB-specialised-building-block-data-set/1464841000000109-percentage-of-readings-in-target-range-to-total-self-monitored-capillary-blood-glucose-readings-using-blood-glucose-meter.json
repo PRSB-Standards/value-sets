@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "title": "1464841000000109 |Percentage of readings in target range to total self-monitored capillary blood glucose readings using blood glucose meter|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "1464841000000109",
+            "display": "Percentage of readings in target range to total self-monitored capillary blood glucose readings using blood glucose meter"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "1464841000000109",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>1464841000000109 |Percentage of readings in target range to total self-monitored capillary blood glucose readings using blood glucose meter|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/1464841000000109-d0cd096cc9b2",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1464841000000109",
+        "display": "Percentage of readings in target range to total self-monitored capillary blood glucose readings using blood glucose meter"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1464841000000109",
+        "display": "Percentage of readings in target range to total self-monitored capillary blood glucose readings using blood glucose meter",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "1464841000000109",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1464841000000109"
+    }
+  },
+  "_bindingStrength": "required",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "1464841000000109-percentage-of-readings-in-target-range-to-total-self-monitored-capillary-blood-glucose-readings-using-blood-glucose-meter",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-07-07T11:47:11.264622+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-07-07T11:47:11.264622+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-07-07T11:47:11.264622+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
