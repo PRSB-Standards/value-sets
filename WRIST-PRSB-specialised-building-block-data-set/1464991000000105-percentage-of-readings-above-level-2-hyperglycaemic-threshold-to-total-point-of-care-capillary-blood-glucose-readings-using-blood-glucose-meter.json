@@ -83,17 +83,17 @@
     }
   ],
   "_libraryMeta": {
-    "version": "1-build.0.0",
+    "version": "1-build.0.1",
     "slug": "1464991000000105-percentage-of-readings-above-level-2-hyperglycaemic-threshold-to-total-point-of-care-capillary-blood-glucose-readings-using-blood-glucose-meter",
     "collection": "WRIST-PRSB-specialised-building-block-data-set",
-    "updatedAt": "2026-06-29T16:25:21.979952+00:00",
+    "updatedAt": "2026-07-08T13:39:06.087666+00:00",
     "createdBy": "zchahl3",
-    "createdAt": "2026-06-29T16:25:21.979952+00:00",
+    "createdAt": "2026-07-08T13:39:06.087666+00:00",
     "changeLog": [
       {
-        "version": "1-build.0.0",
+        "version": "1-build.0.1",
         "reason": "New.",
-        "date": "2026-06-29T16:25:21.979952+00:00",
+        "date": "2026-07-08T13:39:06.087666+00:00",
         "author": "zchahl3"
       }
     ]
