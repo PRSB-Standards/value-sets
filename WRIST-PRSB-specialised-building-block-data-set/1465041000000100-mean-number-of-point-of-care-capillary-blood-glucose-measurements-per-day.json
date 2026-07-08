@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "title": "1465041000000100 |Mean number of point-of-care capillary blood glucose measurements per day|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "1465041000000100",
+            "display": "Mean number of point-of-care capillary blood glucose measurements per day"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "1465041000000100",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>1465041000000100 |Mean number of point-of-care capillary blood glucose measurements per day|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/1465041000000100-00acade5a6c5",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1465041000000100",
+        "display": "Mean number of point-of-care capillary blood glucose measurements per day"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1465041000000100",
+        "display": "Mean number of point-of-care capillary blood glucose measurements per day",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "1465041000000100",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1465041000000100"
+    }
+  },
+  "_bindingStrength": "required",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "1465041000000100-mean-number-of-point-of-care-capillary-blood-glucose-measurements-per-day",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-07-08T15:58:56.824936+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-07-08T15:58:56.824936+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-07-08T15:58:56.824936+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
