@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "title": "1515611000000104 |Mean total daily bolus insulin dose|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "1515611000000104",
+            "display": "Mean total daily bolus insulin dose"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "1515611000000104",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>1515611000000104 |Mean total daily bolus insulin dose|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/1515611000000104-2d37380f832d",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1515611000000104",
+        "display": "Mean total daily bolus insulin dose"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1515611000000104",
+        "display": "Mean total daily bolus insulin dose",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "1515611000000104",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1515611000000104"
+    }
+  },
+  "_bindingStrength": "required",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "1515611000000104-mean-total-daily-bolus-insulin-dose",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-08-06T11:06:08.468715+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-08-06T11:06:08.468715+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-08-06T11:06:08.468715+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
