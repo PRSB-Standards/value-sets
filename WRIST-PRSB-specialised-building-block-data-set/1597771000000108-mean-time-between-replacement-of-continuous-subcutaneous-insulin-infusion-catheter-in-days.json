@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "title": "1597771000000108 |Mean time between replacement of continuous subcutaneous insulin infusion catheter in days|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "1597771000000108",
+            "display": "Mean time between replacement of continuous subcutaneous insulin infusion catheter in days"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "1597771000000108",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>1597771000000108 |Mean time between replacement of continuous subcutaneous insulin infusion catheter in days|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/1597771000000108-daecef574623",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1597771000000108",
+        "display": "Mean time between replacement of continuous subcutaneous insulin infusion catheter in days"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1597771000000108",
+        "display": "Mean time between replacement of continuous subcutaneous insulin infusion catheter in days",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "1597771000000108",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1597771000000108"
+    }
+  },
+  "_bindingStrength": "required",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "1597771000000108-mean-time-between-replacement-of-continuous-subcutaneous-insulin-infusion-catheter-in-days",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-08-10T11:08:58.815113+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-08-10T11:08:58.815113+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-08-10T11:08:58.815113+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
