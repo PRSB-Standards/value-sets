@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "title": "1597781000000105 |Mean time between replacement of insulin infusion patch pump in days|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "1597781000000105",
+            "display": "Mean time between replacement of insulin infusion patch pump in days"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "1597781000000105",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>1597781000000105 |Mean time between replacement of insulin infusion patch pump in days|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/1597781000000105-49b439a8aa30",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1597781000000105",
+        "display": "Mean time between replacement of insulin infusion patch pump in days"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1597781000000105",
+        "display": "Mean time between replacement of insulin infusion patch pump in days",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "1597781000000105",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1597781000000105"
+    }
+  },
+  "_bindingStrength": "required",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "1597781000000105-mean-time-between-replacement-of-insulin-infusion-patch-pump-in-days",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-08-10T11:41:15.289399+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-08-10T11:41:15.289399+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-08-10T11:41:15.289399+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
