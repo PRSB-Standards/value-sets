@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "title": "1516001000000104 |Mean total daily insulin dose delivered by continuous subcutaneous infusion of insulin|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "1516001000000104",
+            "display": "Mean total daily insulin dose delivered by continuous subcutaneous infusion of insulin"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "1516001000000104",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>1516001000000104 |Mean total daily insulin dose delivered by continuous subcutaneous infusion of insulin|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/1516001000000104-6d9b91840c17",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1516001000000104",
+        "display": "Mean total daily insulin dose delivered by continuous subcutaneous infusion of insulin"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1516001000000104",
+        "display": "Mean total daily insulin dose delivered by continuous subcutaneous infusion of insulin",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "1516001000000104 |Mean total daily insulin dose delivered by continuous subcutaneous infusion of insulin|",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1516001000000104"
+    }
+  },
+  "_bindingStrength": "required",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "1516001000000104-mean-total-daily-insulin-dose-delivered-by-continuous-subcutaneous-infusion-of-insulin",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-08-18T14:24:19.144684+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-08-18T14:24:19.144684+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-08-18T14:24:19.144684+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
