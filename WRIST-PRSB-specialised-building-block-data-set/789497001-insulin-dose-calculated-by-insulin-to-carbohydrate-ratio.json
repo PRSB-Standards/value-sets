@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "title": "789497001 |Insulin dose calculated by insulin to carbohydrate ratio|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "789497001",
+            "display": "Insulin dose calculated by insulin to carbohydrate ratio"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "789497001",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>789497001 |Insulin dose calculated by insulin to carbohydrate ratio|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/789497001-4f7c9c31b6d9",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "789497001",
+        "display": "Insulin dose calculated by insulin to carbohydrate ratio"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "789497001",
+        "display": "Insulin dose calculated by insulin to carbohydrate ratio",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "789497001",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "789497001"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "789497001-insulin-dose-calculated-by-insulin-to-carbohydrate-ratio",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-23T08:30:07.699504+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-23T08:30:07.699504+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-23T08:30:07.699504+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
