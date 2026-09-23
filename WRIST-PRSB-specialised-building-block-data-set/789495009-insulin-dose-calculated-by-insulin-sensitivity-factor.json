@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "title": "789495009 |Insulin dose calculated by insulin sensitivity factor|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "789495009",
+            "display": "Insulin dose calculated by insulin sensitivity factor"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "789495009",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>789495009 |Insulin dose calculated by insulin sensitivity factor|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/789495009-d432b07ffcc2",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "789495009",
+        "display": "Insulin dose calculated by insulin sensitivity factor"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "789495009",
+        "display": "Insulin dose calculated by insulin sensitivity factor",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "789495009",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "789495009"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "789495009-insulin-dose-calculated-by-insulin-sensitivity-factor",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-23T09:19:29.851928+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-23T09:19:29.851928+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-23T09:19:29.851928+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
