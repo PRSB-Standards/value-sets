@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "title": "787764007 |Estimated quantity of intake of carbohydrate in 24 hours|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "787764007",
+            "display": "Estimated quantity of intake of carbohydrate in 24 hours"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "787764007",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>787764007 |Estimated quantity of intake of carbohydrate in 24 hours|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/787764007-21658b97ceb5",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "787764007",
+        "display": "Estimated quantity of intake of carbohydrate in 24 hours"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "787764007",
+        "display": "Estimated quantity of intake of carbohydrate in 24 hours",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "787764007",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "787764007"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "787764007-estimated-quantity-of-intake-of-carbohydrate-in-24-hours",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-23T12:29:29.919237+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-23T12:29:29.919237+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-23T12:29:29.919237+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
