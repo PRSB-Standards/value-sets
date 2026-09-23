@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "title": "789496005 |Insulin to carbohydrate ratio|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "789496005",
+            "display": "Insulin to carbohydrate ratio"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "789496005",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>789496005 |Insulin to carbohydrate ratio|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/789496005-67f205062c7d",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "789496005",
+        "display": "Insulin to carbohydrate ratio"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "789496005",
+        "display": "Insulin to carbohydrate ratio",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "789496005",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "789496005"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "789496005-insulin-to-carbohydrate-ratio",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-23T13:31:46.355796+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-23T13:31:46.355796+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-23T13:31:46.355796+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
