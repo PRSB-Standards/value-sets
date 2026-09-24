@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "title": "1577081000000101 |Mean total hourly insulin dose delivered by continuous subcutaneous insulin infusion calculated using time block method|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "1577081000000101",
+            "display": "Mean total hourly insulin dose delivered by continuous subcutaneous insulin infusion calculated using time block method"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "1577081000000101",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>1577081000000101 |Mean total hourly insulin dose delivered by continuous subcutaneous insulin infusion calculated using time block method|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/1577081000000101-3b1b6ce9d45b",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "1577081000000101",
+        "display": "Mean total hourly insulin dose delivered by continuous subcutaneous insulin infusion calculated using time block method"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "1577081000000101",
+        "display": "Mean total hourly insulin dose delivered by continuous subcutaneous insulin infusion calculated using time block method",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "1577081000000101",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1577081000000101"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "1577081000000101-mean-total-hourly-insulin-dose-delivered-by-continuous-subcutaneous-insulin-infusion-calculated-using-time-block-method",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-24T16:06:41.548049+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-24T16:06:41.548049+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-24T16:06:41.548049+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
