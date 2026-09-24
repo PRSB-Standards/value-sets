@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "title": "852611000000104 |Target blood glucose concentration|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "852611000000104",
+            "display": "Target blood glucose concentration"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "852611000000104",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>852611000000104 |Target blood glucose concentration|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/852611000000104-bddd87fd46f8",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "852611000000104",
+        "display": "Target blood glucose concentration"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "852611000000104",
+        "display": "Target blood glucose concentration",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "852611000000104",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "852611000000104"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "852611000000104-target-blood-glucose-concentration",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-24T14:21:47.359222+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-24T14:21:47.359222+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-24T14:21:47.359222+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
