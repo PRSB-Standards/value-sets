@@ -1,0 +1,120 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Electronic insulin infusion tethered and patch pump systems (AMP)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "43791111000001104",
+            "display": "A8 TouchCare Nano 200U insulin pump base system MD8201 (Medtrum Ltd)"
+          },
+          {
+            "code": "43791311000001102",
+            "display": "A8 TouchCare Nano 200U insulin pump base system with Personal Diabetes Manager (PDM) handset SY-201 (Medtrum Ltd)"
+          },
+          {
+            "code": "43792011000001108",
+            "display": "A8 TouchCare Nano 300U insulin pump base system MD8301 (Medtrum Ltd)"
+          },
+          {
+            "code": "43791811000001106",
+            "display": "A8 TouchCare Nano 300U insulin pump base system with Personal Diabetes Manager (PDM) handset SY-301 (Medtrum Ltd)"
+          },
+          {
+            "code": "43804911000001103",
+            "display": "Dana CamAPS FX insulin pump kit DAC-132-EN-CAMAPS (Advanced Therapeutics (UK) Ltd)"
+          },
+          {
+            "code": "43804511000001105",
+            "display": "Dana Diabecare i insulin pump kit DAC-132-EN (Advanced Therapeutics (UK) Ltd)"
+          },
+          {
+            "code": "42905311000001104",
+            "display": "MiniMed 740G 3ml insulin pump system BNUK740GSGBA00 (Medtronic Ltd)"
+          },
+          {
+            "code": "42904711000001104",
+            "display": "MiniMed 780G 3ml insulin pump system BNUK780GSG4A00 (Medtronic Ltd)"
+          },
+          {
+            "code": "43201911000001105",
+            "display": "Mylife YpsoPump insulin pump system starter kit 700009424 (mylife Diabetes Care Ltd)"
+          },
+          {
+            "code": "43194411000001100",
+            "display": "t:slim X2 insulin pump system with Basal-IQ technology D1015000 (Air Liquide Healthcare Ltd)"
+          },
+          {
+            "code": "43194611000001102",
+            "display": "t:slim X2 insulin pump system with Control-IQ technology D1019000 (Air Liquide Healthcare Ltd)"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "Electronic-insulin-infusion-tethered-and-patch-pump-systems-(AMP)",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Electronic insulin infusion tethered and patch pump systems (AMP)</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/electronic-insulin-infusion-tethered-and-patch-pump-systems-amp-b6fa0d3a54c3",
+  "description": "Extensible example value set for electronic insulin infusion tethered and patch pump systems devices.",
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "electronic-insulin-infusion-tethered-and-patch-pump-systems-amp",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-25T14:22:35.064127+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-25T14:22:35.064127+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-25T14:22:35.064127+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
