@@ -1,0 +1,84 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Electronic insulin infusion pump system type (VMP)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "43801711000001103",
+            "display": "Electronic insulin infusion patch pump systems"
+          },
+          {
+            "code": "42957311000001104",
+            "display": "Electronic insulin infusion tethered pump systems"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "Electronic-insulin-infusion-pump-system-type-(VMP)",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Electronic insulin infusion pump system type (VMP)</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/electronic-insulin-infusion-pump-system-type-vmp-c193beb470f9",
+  "description": "Electronic insulin infusion pump system type.",
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "electronic-insulin-infusion-pump-system-type-vmp",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-25T13:44:54.217938+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-25T13:44:54.217938+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-25T13:44:54.217938+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
