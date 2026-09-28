@@ -1,0 +1,84 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Blood glucose meter type - for professional use (multiple patients and users) (VMP)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "42796711000001100",
+            "display": "Blood glucose meters - for professional use (multiple patients and users)"
+          },
+          {
+            "code": "42826511000001101",
+            "display": "Combination blood glucose and blood ketone meters - for professional use (multiple patients and users)"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "Blood-glucose-meter-type---for-professional-use-(multiple-patients-and-users)-(VMP)",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Blood glucose meter type - for professional use (multiple patients and users) (VMP)</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/blood-glucose-meter-type-for-professional-use-multiple-patients-and-users-vmp-723b455cd190",
+  "description": "Blood glucose meter type - for professional use (multiple patients and users) .",
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "blood-glucose-meter-type-for-professional-use-multiple-patients-and-users-vmp",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-28T10:01:20.684635+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-28T10:01:20.684635+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-28T10:01:20.684635+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
