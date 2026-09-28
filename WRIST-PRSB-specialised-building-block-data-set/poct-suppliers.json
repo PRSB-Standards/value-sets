@@ -1,0 +1,180 @@
+{
+  "resourceType": "ValueSet",
+  "title": "POCT suppliers",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "2061801000001104",
+            "display": "Abbott Laboratories Ltd"
+          },
+          {
+            "code": "3058611000001109",
+            "display": "A. Menarini Diagnostics Ltd"
+          },
+          {
+            "code": "23109611000001102",
+            "display": "GlucoRx Ltd"
+          },
+          {
+            "code": "37222811000001106",
+            "display": "Kinetik Medical Devices Ltd"
+          },
+          {
+            "code": "34879611000001102",
+            "display": "Nova Biomedical"
+          },
+          {
+            "code": "42787411000001109",
+            "display": "Radiometer"
+          },
+          {
+            "code": "3516001000001106",
+            "display": "Roche Diagnostics Ltd"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "POCT-suppliers",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>POCT suppliers</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/poct-suppliers-8940672429c2",
+  "description": "Extensible example value set of point of care blood glucose testing device suppliers.",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "2061801000001104",
+        "display": "Abbott Laboratories Ltd"
+      },
+      {
+        "code": "3058611000001109",
+        "display": "A. Menarini Diagnostics Ltd"
+      },
+      {
+        "code": "23109611000001102",
+        "display": "GlucoRx Ltd"
+      },
+      {
+        "code": "37222811000001106",
+        "display": "Kinetik Medical Devices Ltd"
+      },
+      {
+        "code": "34879611000001102",
+        "display": "Nova Biomedical"
+      },
+      {
+        "code": "42787411000001109",
+        "display": "Radiometer"
+      },
+      {
+        "code": "3516001000001106",
+        "display": "Roche Diagnostics Ltd"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "2061801000001104",
+        "display": "Abbott Laboratories Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "3058611000001109",
+        "display": "A. Menarini Diagnostics Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "23109611000001102",
+        "display": "GlucoRx Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "37222811000001106",
+        "display": "Kinetik Medical Devices Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "34879611000001102",
+        "display": "Nova Biomedical",
+        "action": "include-only"
+      },
+      {
+        "code": "42787411000001109",
+        "display": "Radiometer",
+        "action": "include-only"
+      },
+      {
+        "code": "3516001000001106",
+        "display": "Roche Diagnostics Ltd",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "roche diag",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "3516001000001106"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "poct-suppliers",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-28T10:29:13.535221+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-28T10:29:13.535221+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-28T10:29:13.535221+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
