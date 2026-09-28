@@ -1,0 +1,297 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Blood glucose and combination blood glucose and ketone meters - for professional use (multiple patients and users) (AMP)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "42786811000001109",
+            "display": "Accu-Chek Inform II system (networked) (Roche Diagnostics Ltd)"
+          },
+          {
+            "code": "42788111000001103",
+            "display": "HemoCue Glucose 201 DM RT system (networked) (Radiometer)"
+          },
+          {
+            "code": "42787911000001101",
+            "display": "HemoCue Glucose 201 DM system (networked) (Radiometer)"
+          },
+          {
+            "code": "42787711000001103",
+            "display": "HemoCue Glucose 201 RT system (Radiometer)"
+          },
+          {
+            "code": "42787511000001108",
+            "display": "HemoCue Glucose 201+ system (Radiometer)"
+          },
+          {
+            "code": "42859811000001108",
+            "display": "Kinetik Wellbeing BG-710 blood glucose monitoring system (Kinetik Medical Devices Ltd)"
+          },
+          {
+            "code": "42860311000001103",
+            "display": "Kinetik Wellbeing BG-710b Smart blood glucose monitoring system (Kinetik Medical Devices Ltd)"
+          },
+          {
+            "code": "42798811000001109",
+            "display": "FreeStyle Optium Neo H blood glucose and ketone monitoring system (Abbott Laboratories Ltd)"
+          },
+          {
+            "code": "42798611000001105",
+            "display": "FreeStyle Precision Pro blood glucose and ketone monitoring system (networked) (Abbott Laboratories Ltd)"
+          },
+          {
+            "code": "42799011000001108",
+            "display": "StatStrip blood glucose and ketone connectivity monitoring system (networked) (Nova Biomedical)"
+          },
+          {
+            "code": "42799211000001103",
+            "display": "StatStrip Xpress2 blood glucose and ketone monitoring system (Nova Biomedical)"
+          },
+          {
+            "code": "42858711000001109",
+            "display": "GlucoMen areo GK blood glucose and ketone monitoring system 52083 (A. Menarini Diagnostics Ltd)"
+          },
+          {
+            "code": "42752311000001109",
+            "display": "GlucoRx HCT blood glucose and ketone monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42752911000001105",
+            "display": "GlucoRx HCT Connect i integrated multi-parameter monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42753311000001104",
+            "display": "GlucoRx X6 multi-functional monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42787011000001100",
+            "display": "KEYA Smart blood glucose and ketone monitoring system (GlucoRx Ltd)"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "Blood-glucose-and-combination-blood-glucose-and-ketone-meters---for-professional-use-(multiple-patients-and-users)-(AMP)",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Blood glucose and combination blood glucose and ketone meters - for professional use (multiple patients and users) (AMP)</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/blood-glucose-and-combination-blood-glucose-and-ketone-meters-for-professional-use-multiple-patients-and-users-amp-430cb19be85c",
+  "description": "Blood glucose and combination blood glucose and ketone meters - for professional use (multiple patients and users).",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "42786811000001109",
+        "display": "Accu-Chek Inform II system (networked) (Roche Diagnostics Ltd)"
+      },
+      {
+        "code": "42788111000001103",
+        "display": "HemoCue Glucose 201 DM RT system (networked) (Radiometer)"
+      },
+      {
+        "code": "42787911000001101",
+        "display": "HemoCue Glucose 201 DM system (networked) (Radiometer)"
+      },
+      {
+        "code": "42787711000001103",
+        "display": "HemoCue Glucose 201 RT system (Radiometer)"
+      },
+      {
+        "code": "42787511000001108",
+        "display": "HemoCue Glucose 201+ system (Radiometer)"
+      },
+      {
+        "code": "42859811000001108",
+        "display": "Kinetik Wellbeing BG-710 blood glucose monitoring system (Kinetik Medical Devices Ltd)"
+      },
+      {
+        "code": "42860311000001103",
+        "display": "Kinetik Wellbeing BG-710b Smart blood glucose monitoring system (Kinetik Medical Devices Ltd)"
+      },
+      {
+        "code": "42798811000001109",
+        "display": "FreeStyle Optium Neo H blood glucose and ketone monitoring system (Abbott Laboratories Ltd)"
+      },
+      {
+        "code": "42798611000001105",
+        "display": "FreeStyle Precision Pro blood glucose and ketone monitoring system (networked) (Abbott Laboratories Ltd)"
+      },
+      {
+        "code": "42799011000001108",
+        "display": "StatStrip blood glucose and ketone connectivity monitoring system (networked) (Nova Biomedical)"
+      },
+      {
+        "code": "42799211000001103",
+        "display": "StatStrip Xpress2 blood glucose and ketone monitoring system (Nova Biomedical)"
+      },
+      {
+        "code": "42858711000001109",
+        "display": "GlucoMen areo GK blood glucose and ketone monitoring system 52083 (A. Menarini Diagnostics Ltd)"
+      },
+      {
+        "code": "42752311000001109",
+        "display": "GlucoRx HCT blood glucose and ketone monitoring system (GlucoRx Ltd)"
+      },
+      {
+        "code": "42752911000001105",
+        "display": "GlucoRx HCT Connect i integrated multi-parameter monitoring system (GlucoRx Ltd)"
+      },
+      {
+        "code": "42753311000001104",
+        "display": "GlucoRx X6 multi-functional monitoring system (GlucoRx Ltd)"
+      },
+      {
+        "code": "42787011000001100",
+        "display": "KEYA Smart blood glucose and ketone monitoring system (GlucoRx Ltd)"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "42786811000001109",
+        "display": "Accu-Chek Inform II system (networked) (Roche Diagnostics Ltd)",
+        "action": "include-only"
+      },
+      {
+        "code": "42788111000001103",
+        "display": "HemoCue Glucose 201 DM RT system (networked) (Radiometer)",
+        "action": "include-only"
+      },
+      {
+        "code": "42787911000001101",
+        "display": "HemoCue Glucose 201 DM system (networked) (Radiometer)",
+        "action": "include-only"
+      },
+      {
+        "code": "42787711000001103",
+        "display": "HemoCue Glucose 201 RT system (Radiometer)",
+        "action": "include-only"
+      },
+      {
+        "code": "42787511000001108",
+        "display": "HemoCue Glucose 201+ system (Radiometer)",
+        "action": "include-only"
+      },
+      {
+        "code": "42859811000001108",
+        "display": "Kinetik Wellbeing BG-710 blood glucose monitoring system (Kinetik Medical Devices Ltd)",
+        "action": "include-only"
+      },
+      {
+        "code": "42860311000001103",
+        "display": "Kinetik Wellbeing BG-710b Smart blood glucose monitoring system (Kinetik Medical Devices Ltd)",
+        "action": "include-only"
+      },
+      {
+        "code": "42798811000001109",
+        "display": "FreeStyle Optium Neo H blood glucose and ketone monitoring system (Abbott Laboratories Ltd)",
+        "action": "include-only"
+      },
+      {
+        "code": "42798611000001105",
+        "display": "FreeStyle Precision Pro blood glucose and ketone monitoring system (networked) (Abbott Laboratories Ltd)",
+        "action": "include-only"
+      },
+      {
+        "code": "42799011000001108",
+        "display": "StatStrip blood glucose and ketone connectivity monitoring system (networked) (Nova Biomedical)",
+        "action": "include-only"
+      },
+      {
+        "code": "42799211000001103",
+        "display": "StatStrip Xpress2 blood glucose and ketone monitoring system (Nova Biomedical)",
+        "action": "include-only"
+      },
+      {
+        "code": "42858711000001109",
+        "display": "GlucoMen areo GK blood glucose and ketone monitoring system 52083 (A. Menarini Diagnostics Ltd)",
+        "action": "include-only"
+      },
+      {
+        "code": "42752311000001109",
+        "display": "GlucoRx HCT blood glucose and ketone monitoring system (GlucoRx Ltd)",
+        "action": "include-only"
+      },
+      {
+        "code": "42752911000001105",
+        "display": "GlucoRx HCT Connect i integrated multi-parameter monitoring system (GlucoRx Ltd)",
+        "action": "include-only"
+      },
+      {
+        "code": "42753311000001104",
+        "display": "GlucoRx X6 multi-functional monitoring system (GlucoRx Ltd)",
+        "action": "include-only"
+      },
+      {
+        "code": "42787011000001100",
+        "display": "KEYA Smart blood glucose and ketone monitoring system (GlucoRx Ltd)",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "42787011000001100",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "42787011000001100"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "blood-glucose-and-combination-blood-glucose-and-ketone-meters-for-professional-use-multiple-patients-and-users-amp",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-28T09:32:18.106579+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-28T09:32:18.106579+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-28T09:32:18.106579+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
