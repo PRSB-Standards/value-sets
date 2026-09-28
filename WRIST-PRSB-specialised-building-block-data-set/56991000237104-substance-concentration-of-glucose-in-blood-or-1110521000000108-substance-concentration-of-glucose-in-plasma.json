@@ -1,0 +1,115 @@
+{
+  "resourceType": "ValueSet",
+  "title": "56991000237104 |Substance concentration of glucose in blood| or 1110521000000108 |Substance concentration of glucose in plasma|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "56991000237104",
+            "display": "Glucose molar concentration in blood"
+          },
+          {
+            "code": "1110521000000108",
+            "display": "Glucose molar concentration in plasma"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "56991000237104-|Substance-concentration-of-glucose-in-blood|-or-1110521000000108-|Substance-concentration-of-glucose-in-plasma|",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>56991000237104 |Substance concentration of glucose in blood| or 1110521000000108 |Substance concentration of glucose in plasma|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/56991000237104-substance-concentration-of-glucose-in-blood-or-1110521000000108-substance-concentration-of-glucose-in-plasma-ad4616689ffc",
+  "description": "56991000237104 |Substance concentration of glucose in blood| or 1110521000000108 |Substance concentration of glucose in plasma|.",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "56991000237104",
+        "display": "Glucose molar concentration in blood"
+      },
+      {
+        "code": "1110521000000108",
+        "display": "Glucose molar concentration in plasma"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "56991000237104",
+        "display": "Glucose molar concentration in blood",
+        "action": "include-only"
+      },
+      {
+        "code": "1110521000000108",
+        "display": "Glucose molar concentration in plasma",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "1110521000000108",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "1110521000000108"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "56991000237104-substance-concentration-of-glucose-in-blood-or-1110521000000108-substance-concentration-of-glucose-in-plasma",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-28T13:55:26.116875+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-28T13:55:26.116875+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-28T13:55:26.116875+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
