@@ -1,0 +1,272 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Blood glucose and combination blood glucose and ketone meters - for personal use (single user) (AMP)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "42666911000001105",
+            "display": "4SURE Smart blood glucose monitoring system (Nipro Diagnostics (UK) Ltd)"
+          },
+          {
+            "code": "42752211000001101",
+            "display": "4SURE Smart Duo blood glucose and beta-ketone monitoring system (Nipro Diagnostics (UK) Ltd)"
+          },
+          {
+            "code": "42671411000001102",
+            "display": "Accu-Chek Instant connected blood glucose monitoring system (Roche Diabetes Care Ltd)"
+          },
+          {
+            "code": "42665711000001100",
+            "display": "Betachek C50 cassette blood glucose monitoring system (National Diagnostic Products)"
+          },
+          {
+            "code": "42751911000001104",
+            "display": "CareSens Dual blood glucose and beta-ketone monitoring system (Spirit Healthcare Ltd)"
+          },
+          {
+            "code": "42724411000001105",
+            "display": "CareSens N blood glucose monitoring system (Spirit Healthcare Ltd)"
+          },
+          {
+            "code": "42724611000001108",
+            "display": "CareSens N Voice blood glucose monitoring system (Spirit Healthcare Ltd)"
+          },
+          {
+            "code": "42767111000001101",
+            "display": "Contour Next Connected blood glucose monitoring system (Ascensia Diabetes Care UK Ltd)"
+          },
+          {
+            "code": "42767311000001104",
+            "display": "Contour Next Link 2.4 wireless blood glucose monitoring system (Ascensia Diabetes Care UK Ltd)"
+          },
+          {
+            "code": "42661811000001105",
+            "display": "Contour Next One blood glucose monitoring system (Ascensia Diabetes Care UK Ltd)"
+          },
+          {
+            "code": "42661611000001106",
+            "display": "Contour Plus Blue blood glucose monitoring system (Ascensia Diabetes Care UK Ltd)"
+          },
+          {
+            "code": "42666611000001104",
+            "display": "Element blood glucose monitoring system (Neon Diagnostics Ltd)"
+          },
+          {
+            "code": "42665911000001103",
+            "display": "Finetest Lite blood glucose monitoring system (Neon Diagnostics Ltd)"
+          },
+          {
+            "code": "42666111000001107",
+            "display": "Finetest Lite Smart blood glucose monitoring system (Neon Diagnostics Ltd)"
+          },
+          {
+            "code": "42752611000001104",
+            "display": "FreeStyle Optium Neo blood glucose and ketone monitoring system (Abbott Laboratories Ltd)"
+          },
+          {
+            "code": "42788311000001101",
+            "display": "Glucofix Tech GK blood glucose and ketone monitoring system 56815 (A. Menarini Diagnostics Ltd)"
+          },
+          {
+            "code": "42671811000001100",
+            "display": "GlucoLab Auto-coding blood glucose monitoring system (Neon Diagnostics Ltd)"
+          },
+          {
+            "code": "42858711000001109",
+            "display": "GlucoMen areo GK blood glucose and ketone monitoring system 52083 (A. Menarini Diagnostics Ltd)"
+          },
+          {
+            "code": "42665211000001107",
+            "display": "GlucoRx GO integrated blood glucose monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42752311000001109",
+            "display": "GlucoRx HCT blood glucose and ketone monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42752911000001105",
+            "display": "GlucoRx HCT Connect i integrated multi-parameter monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42660211000001103",
+            "display": "GlucoRx Nexus blood glucose monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42660411000001104",
+            "display": "GlucoRx Nexus Blue blood glucose monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42660811000001102",
+            "display": "GlucoRx Nexus Mini Ultra blood glucose monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42660611000001101",
+            "display": "GlucoRx Nexus Pearl blood glucose monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42661011000001104",
+            "display": "GlucoRx Nexus Voice blood glucose monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42661211000001109",
+            "display": "GlucoRx Q blood glucose monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42661411000001108",
+            "display": "GlucoRx Vivid blood glucose monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42753311000001104",
+            "display": "GlucoRx X6 multi-functional monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42665411000001106",
+            "display": "GlucoZen.auto blood glucose monitoring system (GlucoZen Ltd)"
+          },
+          {
+            "code": "42666311000001109",
+            "display": "GluNEO blood glucose monitoring system (Neon Diagnostics Ltd)"
+          },
+          {
+            "code": "42787011000001100",
+            "display": "KEYA Smart blood glucose and ketone monitoring system (GlucoRx Ltd)"
+          },
+          {
+            "code": "42747711000001108",
+            "display": "Kinetik Wellbeing AG-607 blood glucose monitoring system (Kinetik Medical Devices Ltd)"
+          },
+          {
+            "code": "42725011000001102",
+            "display": "Microdot Max blood glucose monitoring system (Cambridge Sensors Ltd)"
+          },
+          {
+            "code": "42724811000001107",
+            "display": "Microdot+ blood glucose monitoring system (Cambridge Sensors Ltd)"
+          },
+          {
+            "code": "42793011000001105",
+            "display": "Mylife Aveo blood glucose monitoring system (mylife Diabetes Care Ltd)"
+          },
+          {
+            "code": "42667311000001107",
+            "display": "OKmeter Core blood glucose monitoring system (Syringa UK Ltd)"
+          },
+          {
+            "code": "42792811000001107",
+            "display": "On Call Extra blood glucose monitoring system (Acon Laboratories, Inc)"
+          },
+          {
+            "code": "42792411000001105",
+            "display": "On Call Extra Mobile blood glucose monitoring system (Acon Laboratories, Inc)"
+          },
+          {
+            "code": "42792611000001108",
+            "display": "On Call Extra Voice blood glucose monitoring system (Acon Laboratories, Inc)"
+          },
+          {
+            "code": "42747511000001103",
+            "display": "Palmdoc 1 blood glucose monitoring system (Palmdoc Ltd)"
+          },
+          {
+            "code": "42667111000001105",
+            "display": "Palmdoc 2 blood glucose monitoring system (Palmdoc Ltd)"
+          },
+          {
+            "code": "42671611000001104",
+            "display": "TEE2+ blood glucose monitoring system (Spirit Healthcare Ltd)"
+          },
+          {
+            "code": "42667511000001101",
+            "display": "True Metrix Air blood glucose monitoring system (Trividia Health UK Ltd)"
+          },
+          {
+            "code": "42668011000001105",
+            "display": "True Metrix blood glucose monitoring system (Trividia Health UK Ltd)"
+          },
+          {
+            "code": "42667811000001103",
+            "display": "True Metrix Go blood glucose monitoring system (Trividia Health UK Ltd)"
+          },
+          {
+            "code": "42798411000001107",
+            "display": "VivaChek Ino blood glucose monitoring system (JR Biomedical Ltd)"
+          },
+          {
+            "code": "42762911000001100",
+            "display": "WaveSense JAZZ advanced blood glucose monitoring system (AgaMatrix Europe Ltd)"
+          },
+          {
+            "code": "42763211000001103",
+            "display": "WaveSense JAZZ Wireless advanced blood glucose monitoring system (AgaMatrix Europe Ltd)"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "Blood-glucose-and-combination-blood-glucose-and-ketone-meters---for-personal-use-(single-user)-(AMP)",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Blood glucose and combination blood glucose and ketone meters - for personal use (single user) (AMP)</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/blood-glucose-and-combination-blood-glucose-and-ketone-meters-for-personal-use-single-user-amp-e193a33209d2",
+  "description": "Blood glucose and combination blood glucose and ketone meters - for personal use (single user) (AMP).",
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "blood-glucose-and-combination-blood-glucose-and-ketone-meters-for-personal-use-single-user-amp",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-29T16:28:47.738578+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-29T16:28:47.738578+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-29T16:28:47.738578+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
