@@ -1,0 +1,375 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Blood glucose and combination blood glucose and ketone meters - for personal use (single user) and professional use (multiple patients and users) (AMP)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "2061801000001104",
+            "display": "Abbott Laboratories Ltd"
+          },
+          {
+            "code": "38234611000001106",
+            "display": "Acon Laboratories, Inc"
+          },
+          {
+            "code": "13913311000001109",
+            "display": "AgaMatrix Europe Ltd"
+          },
+          {
+            "code": "36608311000001106",
+            "display": "Ascensia Diabetes Care UK Ltd"
+          },
+          {
+            "code": "3058611000001109",
+            "display": "A. Menarini Diagnostics Ltd"
+          },
+          {
+            "code": "11237011000001104",
+            "display": "Cambridge Sensors Ltd"
+          },
+          {
+            "code": "23109611000001102",
+            "display": "GlucoRx Ltd"
+          },
+          {
+            "code": "30920511000001101",
+            "display": "GlucoZen Ltd"
+          },
+          {
+            "code": "30920711000001106",
+            "display": "JR Biomedical Ltd"
+          },
+          {
+            "code": "37222811000001106",
+            "display": "Kinetik Medical Devices Ltd"
+          },
+          {
+            "code": "11880911000001102",
+            "display": "National Diagnostic Products"
+          },
+          {
+            "code": "19566211000001100",
+            "display": "Neon Diagnostics Ltd"
+          },
+          {
+            "code": "9536511000001105",
+            "display": "Nipro Diagnostics (UK) Ltd"
+          },
+          {
+            "code": "34879611000001102",
+            "display": "Nova Biomedical"
+          },
+          {
+            "code": "31061911000001108",
+            "display": "Palmdoc Ltd"
+          },
+          {
+            "code": "42787411000001109",
+            "display": "Radiometer"
+          },
+          {
+            "code": "28013511000001107",
+            "display": "Roche Diabetes Care Ltd"
+          },
+          {
+            "code": "3516001000001106",
+            "display": "Roche Diagnostics Ltd"
+          },
+          {
+            "code": "15615111000001101",
+            "display": "Spirit Healthcare Ltd"
+          },
+          {
+            "code": "36594611000001101",
+            "display": "Syringa UK Ltd"
+          },
+          {
+            "code": "35319811000001101",
+            "display": "Trividia Health UK Ltd"
+          },
+          {
+            "code": "9507211000001100",
+            "display": "mylife Diabetes Care Ltd"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "Blood-glucose-and-combination-blood-glucose-and-ketone-meters---for-personal-use-(single-user)-and-professional-use-(multiple-patients-and-users)-(AMP)",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Blood glucose and combination blood glucose and ketone meters - for personal use (single user) and professional use (multiple patients and users) (AMP)</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/blood-glucose-and-combination-blood-glucose-and-ketone-meters-for-personal-use-single-user-and-professional-use-multiple-patients-and-users-amp-36eb9b0c95f2",
+  "description": "Blood glucose and combination blood glucose and ketone meters - for personal use (single user) and professional use (multiple patients and users) (AMP).",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "2061801000001104",
+        "display": "Abbott Laboratories Ltd"
+      },
+      {
+        "code": "38234611000001106",
+        "display": "Acon Laboratories, Inc"
+      },
+      {
+        "code": "13913311000001109",
+        "display": "AgaMatrix Europe Ltd"
+      },
+      {
+        "code": "36608311000001106",
+        "display": "Ascensia Diabetes Care UK Ltd"
+      },
+      {
+        "code": "3058611000001109",
+        "display": "A. Menarini Diagnostics Ltd"
+      },
+      {
+        "code": "11237011000001104",
+        "display": "Cambridge Sensors Ltd"
+      },
+      {
+        "code": "23109611000001102",
+        "display": "GlucoRx Ltd"
+      },
+      {
+        "code": "30920511000001101",
+        "display": "GlucoZen Ltd"
+      },
+      {
+        "code": "30920711000001106",
+        "display": "JR Biomedical Ltd"
+      },
+      {
+        "code": "37222811000001106",
+        "display": "Kinetik Medical Devices Ltd"
+      },
+      {
+        "code": "11880911000001102",
+        "display": "National Diagnostic Products"
+      },
+      {
+        "code": "19566211000001100",
+        "display": "Neon Diagnostics Ltd"
+      },
+      {
+        "code": "9536511000001105",
+        "display": "Nipro Diagnostics (UK) Ltd"
+      },
+      {
+        "code": "34879611000001102",
+        "display": "Nova Biomedical"
+      },
+      {
+        "code": "31061911000001108",
+        "display": "Palmdoc Ltd"
+      },
+      {
+        "code": "42787411000001109",
+        "display": "Radiometer"
+      },
+      {
+        "code": "28013511000001107",
+        "display": "Roche Diabetes Care Ltd"
+      },
+      {
+        "code": "3516001000001106",
+        "display": "Roche Diagnostics Ltd"
+      },
+      {
+        "code": "15615111000001101",
+        "display": "Spirit Healthcare Ltd"
+      },
+      {
+        "code": "36594611000001101",
+        "display": "Syringa UK Ltd"
+      },
+      {
+        "code": "35319811000001101",
+        "display": "Trividia Health UK Ltd"
+      },
+      {
+        "code": "9507211000001100",
+        "display": "mylife Diabetes Care Ltd"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "2061801000001104",
+        "display": "Abbott Laboratories Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "38234611000001106",
+        "display": "Acon Laboratories, Inc",
+        "action": "include-only"
+      },
+      {
+        "code": "13913311000001109",
+        "display": "AgaMatrix Europe Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "36608311000001106",
+        "display": "Ascensia Diabetes Care UK Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "3058611000001109",
+        "display": "A. Menarini Diagnostics Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "11237011000001104",
+        "display": "Cambridge Sensors Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "23109611000001102",
+        "display": "GlucoRx Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "30920511000001101",
+        "display": "GlucoZen Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "30920711000001106",
+        "display": "JR Biomedical Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "37222811000001106",
+        "display": "Kinetik Medical Devices Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "11880911000001102",
+        "display": "National Diagnostic Products",
+        "action": "include-only"
+      },
+      {
+        "code": "19566211000001100",
+        "display": "Neon Diagnostics Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "9536511000001105",
+        "display": "Nipro Diagnostics (UK) Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "34879611000001102",
+        "display": "Nova Biomedical",
+        "action": "include-only"
+      },
+      {
+        "code": "31061911000001108",
+        "display": "Palmdoc Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "42787411000001109",
+        "display": "Radiometer",
+        "action": "include-only"
+      },
+      {
+        "code": "28013511000001107",
+        "display": "Roche Diabetes Care Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "3516001000001106",
+        "display": "Roche Diagnostics Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "15615111000001101",
+        "display": "Spirit Healthcare Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "36594611000001101",
+        "display": "Syringa UK Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "35319811000001101",
+        "display": "Trividia Health UK Ltd",
+        "action": "include-only"
+      },
+      {
+        "code": "9507211000001100",
+        "display": "mylife Diabetes Care Ltd",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "mylife",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "9507211000001100"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "blood-glucose-and-combination-blood-glucose-and-ketone-meters-for-personal-use-single-user-and-professional-use-multiple-patients-and-users-amp",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-29T15:08:21.344319+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-29T15:08:21.344319+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-29T15:08:21.344319+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
