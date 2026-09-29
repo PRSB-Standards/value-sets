@@ -1,0 +1,84 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Blood glucose meter type - for personal use (single user) (VMP)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "42668711000001107",
+            "display": "Blood glucose meters - for personal use (single user)"
+          },
+          {
+            "code": "42754311000001102",
+            "display": "Combination blood glucose and blood ketone meters - for personal use (single user)"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "Blood-glucose-meter-type---for-personal-use-(single-user)-(VMP)",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Blood glucose meter type - for personal use (single user) (VMP)</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/blood-glucose-meter-type-for-personal-use-single-user-vmp-17a7b7247c0e",
+  "description": "Blood glucose meter type - for personal use (single user) (VMP).",
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "blood-glucose-meter-type-for-personal-use-single-user-vmp",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-09-29T14:08:10.575260+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-09-29T14:08:10.575260+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-09-29T14:08:10.575260+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
