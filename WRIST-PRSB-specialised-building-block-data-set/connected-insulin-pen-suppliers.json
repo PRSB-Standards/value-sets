@@ -1,0 +1,102 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Connected insulin pen suppliers",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "2080301000001101",
+            "display": "Novo Nordisk Ltd"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "connected-insulin-pen-suppliers",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Connected insulin pen suppliers</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/connected-insulin-pen-suppliers-68cdf328d71f",
+  "description": "An extensible example value set for connected insulin pen suppliers.",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "2080301000001101",
+        "display": "Novo Nordisk Ltd"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "2080301000001101",
+        "display": "Novo Nordisk Ltd",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "novo nor",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "2080301000001101"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "connected-insulin-pen-suppliers",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-10-01T13:06:04.823498+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-10-01T13:06:04.823498+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-10-01T13:06:04.823498+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
