@@ -1,0 +1,92 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Durable or disposable connected insulin pens (AMP)",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "40490311000001104",
+            "display": "NovoPen 6 hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Blue (Novo Nordisk Ltd)"
+          },
+          {
+            "code": "40490511000001105",
+            "display": "NovoPen 6 hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Grey (Novo Nordisk Ltd)"
+          },
+          {
+            "code": "40490711000001100",
+            "display": "NovoPen Echo Plus hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 0.5-30 units Blue (Novo Nordisk Ltd)"
+          },
+          {
+            "code": "40490911000001103",
+            "display": "NovoPen Echo Plus hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 0.5-30 units Red (Novo Nordisk Ltd)"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "Durable-or-disposable-connected-insulin-pens-(AMP)",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Durable or disposable connected insulin pens (AMP)</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/durable-or-disposable-connected-insulin-pens-amp-d6b66ebdfb19",
+  "description": "Extensible value set for durable or disposable connected insulin pens (AMP).",
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "durable-or-disposable-connected-insulin-pens-amp",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-10-01T13:27:54.110234+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-10-01T13:27:54.110234+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-10-01T13:27:54.110234+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
