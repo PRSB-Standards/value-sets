@@ -1,0 +1,105 @@
+{
+  "resourceType": "ValueSet",
+  "title": "^999000041000001103 |ePrescribing method simple reference set|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "^ 999000041000001103"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "^999000041000001103-|ePrescribing-method-simple-reference-set-|",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>^999000041000001103 |ePrescribing method simple reference set|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/999000041000001103-eprescribing-method-simple-reference-set-a34adb5e1f86",
+  "description": "999000041000001103 |ePrescribing method simple reference set.",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "999000041000001103",
+        "display": "ePrescribing method simple reference set",
+        "isRefset": true
+      }
+    ],
+    "decisions": [
+      {
+        "code": "999000041000001103",
+        "display": "ePrescribing method simple reference set",
+        "action": "include",
+        "operator": "memberOf"
+      }
+    ],
+    "search": {
+      "query": "999000041000001103 |ePrescribing method simple reference set (foundation metadata concept)|",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "999000041000001103"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "999000041000001103-eprescribing-method-simple-reference-set",
+    "collection": "WRIST-PRSB-building-block-dataset",
+    "updatedAt": "2026-10-06T15:52:38.031633+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-10-06T15:52:38.031633+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-10-06T15:52:38.031633+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
