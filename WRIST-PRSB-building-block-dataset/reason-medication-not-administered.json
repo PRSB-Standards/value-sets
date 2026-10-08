@@ -1,0 +1,115 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Reason medication not administered",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "242990004",
+            "display": "Drug not available for administration"
+          },
+          {
+            "code": "182895007",
+            "display": "Drug declined by patient"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "Reason-Medication-Not-Administered",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Reason medication not administered</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/reason-medication-not-administered-8b22f03e0d05",
+  "description": "Extensible example value set for the reason a medication was not administered.",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "242990004",
+        "display": "Drug not available for administration"
+      },
+      {
+        "code": "182895007",
+        "display": "Drug declined by patient"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "242990004",
+        "display": "Drug not available for administration",
+        "action": "include-only"
+      },
+      {
+        "code": "182895007",
+        "display": "Drug declined by patient",
+        "action": "include-only"
+      }
+    ],
+    "search": {
+      "query": "182895007",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "182895007"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "reason-medication-not-administered",
+    "collection": "WRIST-PRSB-building-block-dataset",
+    "updatedAt": "2026-10-08T14:33:15.410200+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-10-08T14:33:15.410200+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-10-08T14:33:15.410200+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
