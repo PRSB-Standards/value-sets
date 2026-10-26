@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "title": "ORGANISATION IDENTIFIER",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/attributes/organisation_identifier.html",
+  "name": "ORGANISATION-IDENTIFIER",
+  "description": "https://www.datadictionary.nhs.uk/attributes/organisation_identifier.html.",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/attributes/organisation_identifier.html",
+    "display": "ORGANISATION IDENTIFIER"
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "organisation-identifier",
+    "collection": "WRIST-PRSB-building-block-dataset",
+    "updatedAt": "2026-10-26T16:13:55.301835+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-10-26T16:13:55.301835+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-10-26T16:13:55.301835+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
