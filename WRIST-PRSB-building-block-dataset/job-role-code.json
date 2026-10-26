@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "title": "JOB ROLE CODE",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/attributes/job_role_code.html",
+  "name": "JOB-ROLE-CODE",
+  "description": "JOB ROLE CODE",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/attributes/job_role_code.html",
+    "display": "JOB ROLE CODE"
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "job-role-code",
+    "collection": "WRIST-PRSB-building-block-dataset",
+    "updatedAt": "2026-10-26T16:37:21.388520+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-10-26T16:37:21.388520+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-10-26T16:37:21.388520+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
