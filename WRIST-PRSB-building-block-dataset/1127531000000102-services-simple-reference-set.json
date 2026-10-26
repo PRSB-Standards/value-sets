@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "title": "^ 1127531000000102 |Services simple reference set|",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "op": "=",
+            "property": "constraint",
+            "value": "^ 1127531000000102 |Services simple reference set|"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "^-1127531000000102-|Services-simple-reference-set|",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>^ 1127531000000102 |Services simple reference set|</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/1127531000000102-services-simple-reference-set-bcfb933aa3fc",
+  "description": "^ 1127531000000102 |Services simple reference set|.",
+  "_bindingStrength": "example",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "1127531000000102-services-simple-reference-set",
+    "collection": "WRIST-PRSB-building-block-dataset",
+    "updatedAt": "2026-10-26T16:29:53.591743+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-10-26T16:29:53.591743+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-10-26T16:29:53.591743+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
