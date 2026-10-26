@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "title": "PROFESSIONAL REGISTRATION ENTRY IDENTIFIER",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/data_elements/professional_registration_entry_identifier.html",
+  "name": "PROFESSIONAL-REGISTRATION-ENTRY-IDENTIFIER",
+  "description": "PROFESSIONAL REGISTRATION ENTRY IDENTIFIER",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/data_elements/professional_registration_entry_identifier.html",
+    "display": "PROFESSIONAL REGISTRATION ENTRY IDENTIFIER"
+  },
+  "_bindingStrength": "example",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "professional-registration-entry-identifier",
+    "collection": "WRIST-PRSB-building-block-dataset",
+    "updatedAt": "2026-10-26T16:26:12.656220+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-10-26T16:26:12.656220+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-10-26T16:26:12.656220+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
