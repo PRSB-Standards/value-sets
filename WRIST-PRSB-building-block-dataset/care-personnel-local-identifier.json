@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "title": "CARE PERSONNEL LOCAL IDENTIFIER",
+  "status": "draft",
+  "url": "https://www.datadictionary.nhs.uk/data_elements/care_personnel_local_identifier.html",
+  "name": "CARE-PERSONNEL-LOCAL-IDENTIFIER",
+  "description": "CARE PERSONNEL LOCAL IDENTIFIER",
+  "_builderState": {
+    "mode": "nhsdd-url",
+    "url": "https://www.datadictionary.nhs.uk/data_elements/care_personnel_local_identifier.html",
+    "display": "CARE PERSONNEL LOCAL IDENTIFIER"
+  },
+  "_bindingStrength": "example",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "care-personnel-local-identifier",
+    "collection": "WRIST-PRSB-building-block-dataset",
+    "updatedAt": "2026-10-26T16:26:48.945485+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-10-26T16:26:48.945485+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-10-26T16:26:48.945485+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
