@@ -1,0 +1,229 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Treatment intent",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "421974008",
+            "display": "Adjunct - intent"
+          },
+          {
+            "code": "373846009",
+            "display": "Adjuvant - intent"
+          },
+          {
+            "code": "1279505009",
+            "display": "Combined diagnostic and therapeutic intent"
+          },
+          {
+            "code": "373808002",
+            "display": "Curative - procedure intent"
+          },
+          {
+            "code": "905551000000108",
+            "display": "Disease modification - intent"
+          },
+          {
+            "code": "1290527003",
+            "display": "Life-sustaining intent"
+          },
+          {
+            "code": "373847000",
+            "display": "Neoadjuvant intent"
+          },
+          {
+            "code": "363676003",
+            "display": "Palliative procedure"
+          },
+          {
+            "code": "360271000",
+            "display": "Prophylaxis - intent"
+          },
+          {
+            "code": "399707004",
+            "display": "Supportive - procedure intent"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "name": "Treatment-intent",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Treatment intent</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/treatment-intent-962f7a7b6425",
+  "description": "Example value set for treatment intent to support testing of the Therapeutic Episode Model (TEM) for the MedMap project.",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "421974008",
+        "display": "Adjunct - intent"
+      },
+      {
+        "code": "373846009",
+        "display": "Adjuvant - intent"
+      },
+      {
+        "code": "1279505009",
+        "display": "Combined diagnostic and therapeutic intent"
+      },
+      {
+        "code": "373808002",
+        "display": "Curative - procedure intent"
+      },
+      {
+        "code": "905551000000108",
+        "display": "Disease modification - intent"
+      },
+      {
+        "code": "1290527003",
+        "display": "Life-sustaining intent"
+      },
+      {
+        "code": "373847000",
+        "display": "Neoadjuvant intent"
+      },
+      {
+        "code": "363676003",
+        "display": "Palliative procedure"
+      },
+      {
+        "code": "360271000",
+        "display": "Prophylaxis - intent"
+      },
+      {
+        "code": "399707004",
+        "display": "Supportive - procedure intent"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "421974008",
+        "display": "Adjunct - intent",
+        "action": "include-only",
+        "rootCode": "421974008"
+      },
+      {
+        "code": "373846009",
+        "display": "Adjuvant - intent",
+        "action": "include-only",
+        "rootCode": "373846009"
+      },
+      {
+        "code": "1279505009",
+        "display": "Combined diagnostic and therapeutic intent",
+        "action": "include-only",
+        "rootCode": "1279505009"
+      },
+      {
+        "code": "373808002",
+        "display": "Curative - procedure intent",
+        "action": "include-only",
+        "rootCode": "373808002"
+      },
+      {
+        "code": "905551000000108",
+        "display": "Disease modification - intent",
+        "action": "include-only",
+        "rootCode": "905551000000108"
+      },
+      {
+        "code": "1290527003",
+        "display": "Life-sustaining intent",
+        "action": "include-only",
+        "rootCode": "1290527003"
+      },
+      {
+        "code": "373847000",
+        "display": "Neoadjuvant intent",
+        "action": "include-only",
+        "rootCode": "373847000"
+      },
+      {
+        "code": "363676003",
+        "display": "Palliative procedure",
+        "action": "include-only",
+        "rootCode": "363676003"
+      },
+      {
+        "code": "360271000",
+        "display": "Prophylaxis - intent",
+        "action": "include-only",
+        "rootCode": "360271000"
+      },
+      {
+        "code": "399707004",
+        "display": "Supportive - procedure intent",
+        "action": "include-only",
+        "rootCode": "399707004"
+      }
+    ],
+    "search": {
+      "query": "399707004",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "399707004"
+    }
+  },
+  "_bindingStrength": "preferred",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-ENG",
+          "display": "England"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-SCT",
+          "display": "Scotland"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-WLS",
+          "display": "Wales"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166:-2",
+          "code": "GB-NIR",
+          "display": "Northern Ireland"
+        }
+      ]
+    }
+  ],
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "treatment-intent",
+    "collection": "WRIST-medmap",
+    "updatedAt": "2026-11-23T00:04:02.846285+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-11-23T00:04:02.846285+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "New.",
+        "date": "2026-11-23T00:04:02.846285+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
